@@ -1,5 +1,19 @@
 <?php snippet('header') ?>
 
+<?php $blocks = $site->content()->content()->toBlocks() ?>
+
+<div class="side-nav" id="side-nav">
+  <?php foreach ($blocks as $block): ?>
+    <?php if ($block->type() === 'heading'): ?>
+    <a href="#<?= str::slug($block->text()) ?>"<?= e($block->level() == 'h1', ' class="small-caps"') ?>">
+      <?= $block->text() ?>
+    </a>
+    <?php endif ?>
+  <?php endforeach ?>
+  <a href="#appendix" class="small-caps">Appendix</a>
+  <a href="#references">References</a>
+</div>
+
 <article>
   <div class="title">
     <div>
@@ -13,7 +27,6 @@
   </div>
   
 <?php
-  $blocks = $site->content()->content()->toBlocks();
   $chapterNumber = 0;
   
   foreach ($blocks as $block) {
@@ -28,9 +41,9 @@
   }
   ?>
   
-  <hgroup>
+  <hgroup id="appendix" class="scroll-section">
     <span class="small-caps">Appendix</span>
-    <h1>References</h1>
+    <h1 id="references" class="scroll-section">References</h1>
   </hgroup>
   <?= $site->getBibliography() ?>
 

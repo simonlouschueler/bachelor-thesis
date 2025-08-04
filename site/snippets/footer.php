@@ -17,7 +17,10 @@
     </div>
   </footer>
   
-  <?= js('assets/js/highlighter.js') ?>
+  <?= js([
+    'assets/js/highlighter.js',
+    'assets/js/side-nav.js'
+  ]) ?>
 
 </body>
 </html>

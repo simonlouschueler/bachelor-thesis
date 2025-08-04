@@ -8,6 +8,7 @@
   --text-primary: #353D37;
   --text-secondary: #72746E;
   --text-tertiary: #353D3770;
+  --text-quaternary: #353D3740;
 
   --text-light: #FFF4E2;
 
@@ -203,8 +204,9 @@ button:active {
 }
 
 .small-caps {
+  font-family: "SourceSans", sans-serif !important;
   font-variant-caps: all-small-caps;
-  font-weight: 500;
+  font-weight: 500 !important;
   letter-spacing: 1.0;
 }
 
@@ -467,6 +469,56 @@ ul.bibliography li.highlighted {
 }
 ul.bibliography li.highlighted * {
   color: var(--accent);
+}
+
+
+/* Side Navigation */
+
+.side-nav {
+  position: absolute;
+  top: 36rem;
+  left: calc(50vw - 33rem);
+  width: 12rem;
+  z-index: 10;
+  border-left: 1.5px solid var(--text-quaternary);
+}
+.side-nav.fixed {
+  position: fixed;
+  top: 4rem;
+}
+.side-nav a {
+  display: block;
+  padding: 0.125rem 1rem;
+  margin-left: -1.5px;
+  border-left: 1.5px solid transparent;
+  font-family: "Nice", serif;
+  font-weight: 400;
+  font-variation-settings: "opsz" 6;
+
+  transition: color 0.2s ease-out;
+}
+.side-nav a:hover {
+  color: var(--accent) !important;
+  
+  transition: none;
+}
+.side-nav a.active {
+  color: var(--accent) !important;
+  border-left: 1.5px solid var(--accent);
+  background: var(--accent-transparent);
+}
+
+.side-nav a.small-caps {
+  color: var(--text-tertiary);
+}
+.side-nav a.small-caps:not(:first-of-type) {
+  margin-top: 1rem;
+}
+
+@media (max-width: 68rem) {
+  .side-nav {
+    display: none;
+  }
 }
 
 
