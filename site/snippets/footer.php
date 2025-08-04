@@ -8,7 +8,7 @@
         <?php endforeach ?>
       </div>
       <nav>
-        <span>© 2026 Simon Lou. All rights reserved.</span>
+        <span>© 2025 Simon Lou. All rights reserved.</span>
         <div>
           <a href="https://typo.social/@simonlou" target="_blank">Mastodon</a>
           <a href="https://simonlou.com/legal" target="_blank">Legal</a>
@@ -19,7 +19,8 @@
   
   <?= js([
     'assets/js/highlighter.js',
-    'assets/js/side-nav.js'
+    'assets/js/side-nav.js',
+    'assets/js/info-panel.js'
   ]) ?>
 
 </body>

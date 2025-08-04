@@ -2,4 +2,21 @@ Title: About
 
 ----
 
+Text:
+
+*Bachelor Thesis by*
+Simon Lou Schüler
+
+*Submitted to the Faculty of Design at the*
+(link: https://www.fh-potsdam.de/en/study-further-education/departments/design-department text: University of Applied Sciences Potsdam target: _blank)
+
+*Surpervised by*
+Prof. Boris Müller
+Frank Rausch
+
+*Period of Origin*
+September 17 to December 16, 2025
+
+----
+
 Uuid: mt4dxm4okfhw2cqh

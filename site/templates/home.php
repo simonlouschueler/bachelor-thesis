@@ -14,6 +14,12 @@
   <a href="#references">References</a>
 </div>
 
+<div class="info-panel">
+  <p>
+    <?= page('about')->text()->kt() ?>
+  </p>
+</div>
+
 <article>
   <div class="title">
     <div>
