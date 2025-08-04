@@ -1,48 +1,54 @@
-columns:
-  - width: 2/3
-    sections:
-      content:
-        type: fields
-        fields:
-          headline:
-            type: text
-          subheadline:
-            type: textarea
-            buttons: false
+tabs:
+  main:
+    columns:
+      - width: 2/3
+        sections:
           content:
-            type: blocks
-            fieldsets:
-              - heading
-              - markdown
-              - image
-              - gallery
-          bibliography:
-            label: Bibliography (BibTeX)
-            type: textarea
-            buttons: false
-            help: Paste your BibTeX entries here
-          badges:
-            type: files
-            uploads:
-              template: badge
-            layout: cards
-            size: small
+            type: fields
+            fields:
+              headline:
+                type: text
+              subheadline:
+                type: textarea
+                buttons: false
+              content:
+                type: blocks
+                fieldsets:
+                  - heading
+                  - markdown
+                  - image
+                  - gallery
+              badges:
+                type: files
+                uploads:
+                  template: badge
+                layout: cards
+                size: small
+                image:
+                  ratio: 88/31
+                  back: "#FDF9EE"
+                
+      - width: 1/3
+        sections:
+          pages:
+            type: pages
+            templates:
+              - default
+              - legal-page
+              - about
+              - support
+            create:
+              - default
             image:
-              ratio: 88/31
-              back: "#FDF9EE"
-            
-  - width: 1/3
-    sections:
-      pages:
-        type: pages
-        templates:
-          - default
-          - legal-page
-          - about
-          - support
-        create:
-          - default
-        image:
-          color: black
-          back: white
-          query: false
+              color: black
+              back: white
+              query: false
+              
+  bibliography:
+    fields:
+      bibliography:
+        label: BetterBibTeX JSON
+        type: textarea
+        buttons: false
+        font: monospace
+        help: Paste BibTeX entries here
