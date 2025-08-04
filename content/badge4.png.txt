@@ -1,0 +1,5 @@
+Uuid: fochkxn1jf2ndjut
+
+----
+
+Template: badge

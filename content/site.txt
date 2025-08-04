@@ -1,0 +1,1924 @@
+Title: Thesis
+
+----
+
+Headline: Opinionated Expressive Mac-Assed
+
+----
+
+Subheadline:
+
+Designing original software
+that feels at home on the Mac
+
+----
+
+Content: [{"content":{"level":"h1","text":"Design Language vs.&nbsp;Visual Language"},"id":"5541902b-13ca-4996-97bb-e1816f19f026","isHidden":false,"type":"heading"},{"content":{"text":"*Is it possible to separate adapting Apple’s design language from following their visual language?*\n\n> And what he said to me that kind of rung a bell he said “Look how- you know you’re all focusing on user friendly and you know, walk up to it, and intuitive. It just worked like you think it would and you don’t have to read a manual or anything.” And he says “The danger is that may end up limiting the depth that you can go or the power that you can get for the experienced user.” And he gave an example. He said “Look how hard it is to ride a bicycle. But look at the power that it gives you. It’s worth learning to ride a bicycle.”\n> [Engelbart, as quoted in @Atkinson-2010-MacPaintInterviewDemonstration, 31:20] \n\nThe Design language is an overarching collection of principles, guidelines, and philosophies that shape how a system works, feels, and communicates. It’s less about appearance and more about the structure, hierarchy, interaction patterns, and the logic behind how elements behave. For example, Apple’s HIG provide a design language that defines how apps should be structured and how users should be able to interact with them. Famously described by the former Apple CEO and founder as “It’s not just what it looks like and feels like. Design is how it works.” [Jobs, as quoted in @Walker-2003-GutsNewMachine, 22:22]."},"id":"053f4aa8-b299-4ede-b03e-8fe4551f715c","isHidden":false,"type":"markdown"},{"content":{"level":"h1","text":"Second"},"id":"d783e584-6a56-429d-8c09-07f6985c004f","isHidden":false,"type":"heading"}]
+
+----
+
+Bibliography:
+
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "preferences": {},
+    "options": {
+      "Items": true,
+      "Normalize": false,
+      "Preferences": false,
+      "exportFileData": false,
+      "exportNotes": false,
+      "keepUpdated": false,
+      "worker": false,
+      "exportDir": "/Users/simonlou/Downloads",
+      "exportPath": "/Users/simonlou/Downloads/My Library.json"
+    }
+  },
+  "version": {
+    "zotero": "7.0.21",
+    "bbt": "7.0.41"
+  },
+  "collections": {
+    "PE2EMZ6U": {
+      "key": "PE2EMZ6U",
+      "parent": "",
+      "name": "Bachelor",
+      "collections": [
+        "WJK4IUNQ",
+        "V7RBCYR7"
+      ],
+      "items": []
+    },
+    "WJK4IUNQ": {
+      "key": "WJK4IUNQ",
+      "parent": "PE2EMZ6U",
+      "name": "Early Software (1960s–1980s)",
+      "collections": [],
+      "items": [
+        6,
+        8,
+        16,
+        18
+      ]
+    },
+    "V7RBCYR7": {
+      "key": "V7RBCYR7",
+      "parent": "PE2EMZ6U",
+      "name": "Modern Software",
+      "collections": [],
+      "items": [
+        3,
+        11,
+        14,
+        16,
+        21
+      ]
+    }
+  },
+  "items": [
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "Serious play",
+      "date": "2024",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=wBnIyD5I8mM",
+      "rights": "Figma",
+      "presentationType": "Video",
+      "meetingName": "Config 2024",
+      "creators": [
+        {
+          "firstName": "Andy",
+          "lastName": "Allen",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Software Sameness"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-26T16:04:21Z",
+      "dateModified": "2025-07-26T21:52:18Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/Q5J8MD72",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=wBnIyD5I8mM",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T16:05:43Z",
+          "dateModified": "2025-07-26T16:05:43Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/J579M2DG",
+          "select": "zotero://select/library/items/J579M2DG"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Allen-2024-SeriousPlay",
+      "itemID": 91,
+      "itemKey": "Q5J8MD72",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/Q5J8MD72"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "OS X Human Interface Guidelines",
+      "date": "2013",
+      "language": "en",
+      "shortTitle": "HIG",
+      "creators": [
+        {
+          "name": "Apple",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-19T07:26:42Z",
+      "dateModified": "2025-07-20T14:14:30Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/KHKMIBFA",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-19T07:26:39Z",
+          "dateModified": "2025-07-19T07:26:42Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8PZXEE7Y",
+          "path": "/Users/simonlou/Zotero/storage/8PZXEE7Y/1992 - OS X Human Interface Guidelines.pdf",
+          "select": "zotero://select/library/items/8PZXEE7Y"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Apple-2013-OSHumanInterface",
+      "itemID": 78,
+      "itemKey": "KHKMIBFA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/KHKMIBFA"
+    },
+    {
+      "version": 0,
+      "itemType": "webpage",
+      "title": "Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/",
+      "accessDate": "2025-06-26",
+      "websiteTitle": "Apple Developer Documentation",
+      "creators": [
+        {
+          "name": "Apple",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-06-26T16:37:44Z",
+      "dateModified": "2025-07-10T08:05:15Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/CXSSTE8Z",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Guidelines",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-06-26T16:38:22Z",
+          "dateModified": "2025-07-06T21:23:25Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/RNJABWVQ",
+          "select": "zotero://select/library/items/RNJABWVQ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Apple-HumanInterfaceGuidelines",
+      "itemID": 24,
+      "itemKey": "CXSSTE8Z",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/CXSSTE8Z"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "MacPaint Interview and Demonstration, with Bill Atkinson and Andy Hertzfeld",
+      "abstractNote": "The Apple Macintosh combined brilliant design in hardware and in software.The drawing program MacPaint, which was released with the computer in January of 1984, was an example of that brilliance both in what it did, and in how it was implemented. MacPaint was written by Bill Atkinson, who was a member of the original Macintosh development team. He based it on his earlier LisaSketch (also called SketchPad) for the unsuccessful Apple Lisa computer, so he originally called it MacSketch. He started work on the Mac version in early 1983. Atkinson also created Quickdraw first for the Lisa, as LisaGraf. Andy Hertzfeld, another key member of the team, considers QuickDraw “the single most significant component of the original Macintosh technology” in its ability to “push pixels around in the frame buffer at blinding speeds to create the celebrated user interface.”",
+      "date": "2010",
+      "language": "en",
+      "shortTitle": "MacPaint Demo",
+      "url": "https://www.computerhistory.org/collections/catalog/102702313/",
+      "interviewMedium": "Computer History Museum",
+      "creators": [
+        {
+          "firstName": "Bill",
+          "lastName": "Atkinson",
+          "creatorType": "interviewee"
+        },
+        {
+          "firstName": "Andy",
+          "lastName": "Hertzfeld",
+          "creatorType": "interviewee"
+        },
+        {
+          "firstName": "Aimee",
+          "lastName": "Gardner",
+          "creatorType": "interviewer"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-13T14:33:02Z",
+      "dateModified": "2025-07-13T16:54:04Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/865GY3QL",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Transcript",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T15:50:53Z",
+          "dateModified": "2025-07-13T15:51:22Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8DKLUAYM",
+          "path": "/Users/simonlou/Zotero/storage/8DKLUAYM/Atkinson and Herzfeld - 2010 - MacPaint Interview and Demonstration, with Bill Atkinson and Andy Herzfeld.pdf",
+          "select": "zotero://select/library/items/8DKLUAYM"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.computerhistory.org/collections/catalog/102702313/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T14:33:11Z",
+          "dateModified": "2025-07-13T14:33:11Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/JGD6U58K",
+          "select": "zotero://select/library/items/JGD6U58K"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Atkinson-2010-MacPaintInterviewDemonstration",
+      "itemID": 60,
+      "itemKey": "865GY3QL",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/865GY3QL"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "Bill Atkinson: Interview for Lisa’s 40th Anniversary",
+      "date": "2022 a",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=NIJrCeRjZIU",
+      "extra": "https://computerhistory.org/blog/memories-of-lisa/",
+      "interviewMedium": "Computer History Museum",
+      "creators": [
+        {
+          "firstName": "Bill",
+          "lastName": "Atkinson",
+          "creatorType": "interviewee"
+        }
+      ],
+      "tags": [],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/local/HdFGa4nv/items/CBTYS5P5",
+          "http://zotero.org/users/local/HdFGa4nv/items/RFRXPHF8"
+        ]
+      },
+      "dateAdded": "2025-07-13T11:06:50Z",
+      "dateModified": "2025-08-04T09:26:56Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/4XVGPVUT",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=NIJrCeRjZIU",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T11:12:47Z",
+          "dateModified": "2025-07-13T11:12:47Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/3BI65G3P",
+          "select": "zotero://select/library/items/3BI65G3P"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Atkinson-2022-BillAtkinsonInterview",
+      "itemID": 51,
+      "itemKey": "4XVGPVUT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/4XVGPVUT"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "Bill Atkinson: Lisa Source Code",
+      "date": "2022 c",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=kGIIwyJ7G94",
+      "extra": "https://computerhistory.org/blog/memories-of-lisa/",
+      "interviewMedium": "Computer History Museum",
+      "creators": [
+        {
+          "firstName": "Bill",
+          "lastName": "Atkinson",
+          "creatorType": "interviewee"
+        }
+      ],
+      "tags": [],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/local/HdFGa4nv/items/4XVGPVUT",
+          "http://zotero.org/users/local/HdFGa4nv/items/CBTYS5P5"
+        ]
+      },
+      "dateAdded": "2025-07-13T11:11:18Z",
+      "dateModified": "2025-07-18T13:49:35Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/RFRXPHF8",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=kGIIwyJ7G94",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T11:12:31Z",
+          "dateModified": "2025-07-13T11:12:31Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/HZRE5V9W",
+          "select": "zotero://select/library/items/HZRE5V9W"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Atkinson-2022-BillAtkinsonLisa",
+      "itemID": 53,
+      "itemKey": "RFRXPHF8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/RFRXPHF8"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "Bill Atkinson: Polaroids showing the Evolution of the Lisa GUI",
+      "date": "2022 b",
+      "language": "en",
+      "url": "https://www.computerhistory.org/collections/catalog/102809056/",
+      "extra": "https://computerhistory.org/blog/memories-of-lisa/",
+      "interviewMedium": "Computer History Museum",
+      "creators": [
+        {
+          "firstName": "Bill",
+          "lastName": "Atkinson",
+          "creatorType": "interviewee"
+        },
+        {
+          "firstName": "Hansen",
+          "lastName": "Hsu",
+          "creatorType": "interviewer"
+        }
+      ],
+      "tags": [],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/local/HdFGa4nv/items/4XVGPVUT",
+          "http://zotero.org/users/local/HdFGa4nv/items/RFRXPHF8"
+        ]
+      },
+      "dateAdded": "2025-07-13T11:10:28Z",
+      "dateModified": "2025-07-18T13:49:39Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/CBTYS5P5",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.computerhistory.org/collections/catalog/102809056/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T14:00:26Z",
+          "dateModified": "2025-07-13T14:00:26Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/NMT689ER",
+          "select": "zotero://select/library/items/NMT689ER"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Atkinson-2022-BillAtkinsonPolaroids",
+      "itemID": 52,
+      "itemKey": "CBTYS5P5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/CBTYS5P5"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "A History of Modern Computing",
+      "date": "2003",
+      "language": "en",
+      "libraryCatalog": "K10plus ISBN",
+      "place": "Cambridge",
+      "publisher": "MIT Press",
+      "ISBN": "978-0-262-53203-7 978-0-262-28727-2",
+      "edition": "2nd ed.",
+      "numPages": "438",
+      "creators": [
+        {
+          "firstName": "Paul E.",
+          "lastName": "Ceruzzi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "William",
+          "lastName": "Aspray",
+          "creatorType": "contributor"
+        },
+        {
+          "firstName": "Thomas J.",
+          "lastName": "Misa",
+          "creatorType": "contributor"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-07T20:23:02Z",
+      "dateModified": "2025-05-08T09:43:05Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/JNJ5EPUI",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-07T20:22:56Z",
+          "dateModified": "2025-05-08T10:39:30Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/Z4WM3TMA",
+          "path": "/Users/simonlou/Zotero/storage/Z4WM3TMA/A History of Modern Computing - Ceruzzi.pdf",
+          "select": "zotero://select/library/items/Z4WM3TMA"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Ceruzzi-2003-HistoryModernComputing",
+      "itemID": 8,
+      "itemKey": "JNJ5EPUI",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/JNJ5EPUI"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "About Face: The Essentials of Interaction Design",
+      "date": "2014",
+      "language": "en",
+      "shortTitle": "About Face",
+      "libraryCatalog": "K10plus ISBN",
+      "place": "Indianapolis, Indiana",
+      "publisher": "Wiley",
+      "ISBN": "978-1-118-76658-3 978-1-118-76657-6 978-1-118-76640-8",
+      "edition": "Fourth edition",
+      "numPages": "1",
+      "creators": [
+        {
+          "firstName": "Alan",
+          "lastName": "Cooper",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Robert",
+          "lastName": "Reimann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dave",
+          "lastName": "Cronin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christopher",
+          "lastName": "Noessel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jason",
+          "lastName": "Csizmadi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Doug",
+          "lastName": "LeMoine",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-08T09:55:18Z",
+      "dateModified": "2025-07-10T08:33:39Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/CZFMDVUE",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ebook",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-08T09:55:16Z",
+          "dateModified": "2025-05-08T10:40:28Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/G3VZK67K",
+          "path": "/Users/simonlou/Zotero/storage/G3VZK67K/About Face - Cooper et al.epub",
+          "select": "zotero://select/library/items/G3VZK67K"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Cooper-2014-FaceEssentialsInteraction",
+      "itemID": 18,
+      "itemKey": "CZFMDVUE",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/CZFMDVUE"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "The Mother of All Demos",
+      "date": "1968",
+      "language": "en",
+      "url": "https://dougengelbart.org/content/view/209/",
+      "presentationType": "Video",
+      "creators": [
+        {
+          "firstName": "Doug",
+          "lastName": "Engelbart",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-13T13:38:06Z",
+      "dateModified": "2025-07-26T15:21:01Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/F86AVUKB",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=B6rKUf9DWRI",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-13T13:39:20Z",
+          "dateModified": "2025-07-13T13:39:20Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/JBBPX2QY",
+          "select": "zotero://select/library/items/JBBPX2QY"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Engelbart-1968-MotherAllDemos",
+      "itemID": 57,
+      "itemKey": "F86AVUKB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/F86AVUKB"
+    },
+    {
+      "version": 0,
+      "itemType": "journalArticle",
+      "title": "User Modeling in Human–Computer Interaction",
+      "abstractNote": "A fundamental objective of human ^ computer interaction research is to make systems more usable, more useful, and to provide users with experiences ¢tting their speci¢c background knowledge and objectives. The challenge in an information-rich world is not only to make information available to people at any time, at any place, and in any form, but speci¢cally to say the ``right'' thing at the ``right'' time in the ``right'' way. Designers of collaborative human ^ computer systems face the formidable task of writing software for millions of users (at design time) while making it work as if it were designed for each individual user (only known at use time).",
+      "date": "2001",
+      "language": "en",
+      "volume": "11",
+      "pages": "65–86",
+      "publicationTitle": "User Modeling and User-Adapted Interaction",
+      "DOI": "https://doi.org/10.1023/A:1011145532042",
+      "creators": [
+        {
+          "firstName": "Gerhard",
+          "lastName": "Fischer",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-26T18:10:21Z",
+      "dateModified": "2025-07-26T18:14:43Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/MXJQK46W",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T18:10:19Z",
+          "dateModified": "2025-07-26T18:10:22Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/URH2HV3K",
+          "path": "/Users/simonlou/Zotero/storage/URH2HV3K/Fischer - User Modeling in Human^Computer Interaction.pdf",
+          "select": "zotero://select/library/items/URH2HV3K"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Fischer-2001-UserModelingHuman",
+      "itemID": 96,
+      "itemKey": "MXJQK46W",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/MXJQK46W"
+    },
+    {
+      "version": 0,
+      "itemType": "webpage",
+      "title": "Design Systems vs. Style Guides",
+      "abstractNote": "Design systems are a set of standards (like Google’s Material Design or IBM’s Carbon Design System) needed to manage design at scale. Style guides (like content or visual style guides) are just one piece in a design system.",
+      "date": "2024",
+      "language": "en",
+      "url": "https://www.nngroup.com/articles/design-systems-vs-style-guides/",
+      "accessDate": "2025-07-18T13:44:17Z",
+      "websiteTitle": "Nielsen Norman Group",
+      "creators": [
+        {
+          "firstName": "Kelley",
+          "lastName": "Gordon",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-18T13:44:17Z",
+      "dateModified": "2025-07-18T13:45:28Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/AJLMGESS",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://www.nngroup.com/articles/design-systems-vs-style-guides/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-18T13:44:23Z",
+          "dateModified": "2025-07-18T13:44:23Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8N5NZ3JG",
+          "path": "/Users/simonlou/Zotero/storage/8N5NZ3JG/design-systems-vs-style-guides.html",
+          "select": "zotero://select/library/items/8N5NZ3JG"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Gordon-2024-DesignSystemsVs",
+      "itemID": 71,
+      "itemKey": "AJLMGESS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/AJLMGESS"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Hackers and Painters",
+      "date": "2003",
+      "language": "en",
+      "url": "https://www.paulgraham.com/hp.html",
+      "accessDate": "2025-07-26T11:51:02Z",
+      "creators": [
+        {
+          "firstName": "Paul",
+          "lastName": "Graham",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-26T11:51:02Z",
+      "dateModified": "2025-07-26T11:53:05Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/SX4Z7UBC",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Hackers and Painters",
+          "url": "https://www.paulgraham.com/hp.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T11:51:09Z",
+          "dateModified": "2025-07-26T11:51:09Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/62JMJBYN",
+          "path": "/Users/simonlou/Zotero/storage/62JMJBYN/hp.html",
+          "select": "zotero://select/library/items/62JMJBYN"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Graham-2003-HackersPainters",
+      "itemID": 81,
+      "itemKey": "SX4Z7UBC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SX4Z7UBC"
+    },
+    {
+      "version": 0,
+      "itemType": "podcast",
+      "title": "'The Cutting Edge Latest Supermodel', With David Smith",
+      "date": "2025",
+      "language": "en",
+      "url": "https://daringfireball.net/thetalkshow/2025/06/30/ep-426",
+      "seriesTitle": "The Talk Show",
+      "episodeNumber": "426",
+      "creators": [
+        {
+          "firstName": "John",
+          "lastName": "Gruber",
+          "creatorType": "podcaster"
+        },
+        {
+          "firstName": "David",
+          "lastName": "Smith",
+          "creatorType": "guest"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-12T17:10:17Z",
+      "dateModified": "2025-08-04T11:37:07Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/W2JXQWPB",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Podcast",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-12T17:11:41Z",
+          "dateModified": "2025-07-26T12:30:47Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8YWU7NDD",
+          "path": "/Users/simonlou/Zotero/storage/8YWU7NDD/The Talk Show Ep. 426, With David Smith.mp3",
+          "select": "zotero://select/library/items/8YWU7NDD"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Transcription",
+          "url": "https://podsearch.david-smith.org/episodes/7752",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T12:30:01Z",
+          "dateModified": "2025-07-26T12:30:36Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/3G9QDH5C",
+          "path": "/Users/simonlou/Zotero/storage/3G9QDH5C/7752.html",
+          "select": "zotero://select/library/items/3G9QDH5C"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Gruber-2025-CuttingEdgeLatest",
+      "itemID": 42,
+      "itemKey": "W2JXQWPB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/W2JXQWPB"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Something Is Rotten in the State of Cupertino",
+      "abstractNote": "Who decided these personalized Siri features should go in the WWDC keynote, with a promise they’d arrive in the coming year, when, at the time, they were in such an unfinished state they could not be demoed to the media even in a controlled environment? Three months later, who decided Apple should double down and advertise these features in a TV commercial, and promote them as a selling point of the iPhone 16 lineup?",
+      "date": "2025",
+      "language": "en",
+      "url": "https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino",
+      "accessDate": "2025-07-26T13:35:31Z",
+      "blogTitle": "Daring Fireball",
+      "creators": [
+        {
+          "firstName": "John",
+          "lastName": "Gruber",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-26T13:35:31Z",
+      "dateModified": "2025-07-26T13:36:40Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/WJ64STF9",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T13:35:37Z",
+          "dateModified": "2025-07-26T13:35:37Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/UN9HD5RX",
+          "path": "/Users/simonlou/Zotero/storage/UN9HD5RX/something_is_rotten_in_the_state_of_cupertino.html",
+          "select": "zotero://select/library/items/UN9HD5RX"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Gruber-2025-SomethingRottenState",
+      "itemID": 86,
+      "itemKey": "WJ64STF9",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WJ64STF9"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "Revolution in The Valley: The Insanely Great Story of How the Mac Was Made",
+      "date": "2004",
+      "language": "en",
+      "shortTitle": "Revolution in The Valley",
+      "place": "California",
+      "publisher": "O'Reilly Media",
+      "ISBN": "0-596-00719-1",
+      "edition": "1st ed.",
+      "numPages": "328",
+      "creators": [
+        {
+          "firstName": "Andy",
+          "lastName": "Hertzfeld",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-06T22:08:26Z",
+      "dateModified": "2025-07-06T22:25:18Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/SWWD9VZV",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ebook",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-06T22:08:35Z",
+          "dateModified": "2025-07-06T22:08:35Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/E9JSDHP4",
+          "path": "/Users/simonlou/Zotero/storage/E9JSDHP4/_.epub",
+          "select": "zotero://select/library/items/E9JSDHP4"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Hertzfeld-2004-RevolutionValleyInsanely",
+      "itemID": 38,
+      "itemKey": "SWWD9VZV",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SWWD9VZV"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Liquid Glass",
+      "abstractNote": "Design or Kitsch?",
+      "date": "2025",
+      "language": "en",
+      "url": "https://ia.net/topics/liquid-glass",
+      "accessDate": "2025-07-27T08:41:11Z",
+      "blogTitle": "iA News",
+      "creators": [
+        {
+          "name": "iA",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-27T08:41:11Z",
+      "dateModified": "2025-07-27T08:51:55Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/U92R75JY",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://ia.net/topics/liquid-glass",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-27T08:41:18Z",
+          "dateModified": "2025-07-27T08:41:18Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/KT58NATC",
+          "path": "/Users/simonlou/Zotero/storage/KT58NATC/liquid-glass.html",
+          "select": "zotero://select/library/items/KT58NATC"
+        }
+      ],
+      "notes": [],
+      "citationKey": "iA-2025-LiquidGlass",
+      "itemID": 104,
+      "itemKey": "U92R75JY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/U92R75JY"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "A Conversation with Jony Ive",
+      "abstractNote": "Jony Ive – the designer Steve Jobs once described as his “spiritual partner” at Apple – joins Patrick Collison on stage for a fireside chat.",
+      "date": "2025",
+      "language": "en",
+      "url": "https://stripe.com/en-de/sessions/2025/a-conversation-with-sir-jony-ive",
+      "rights": "Stripe",
+      "interviewMedium": "Stripe Sessions 2025",
+      "creators": [
+        {
+          "firstName": "Jony",
+          "lastName": "Ive",
+          "creatorType": "interviewee"
+        },
+        {
+          "firstName": "Patrick",
+          "lastName": "Collison",
+          "creatorType": "interviewer"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-31T13:16:31Z",
+      "dateModified": "2025-07-10T08:39:22Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/6ITSGMYK",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=wLb9g_8r-mE",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-31T13:16:53Z",
+          "dateModified": "2025-07-27T12:23:47Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/UDW5SGYQ",
+          "select": "zotero://select/library/items/UDW5SGYQ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Ive-2025-ConversationJonyIve",
+      "itemID": 22,
+      "itemKey": "6ITSGMYK",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/6ITSGMYK"
+    },
+    {
+      "version": 0,
+      "itemType": "webpage",
+      "title": "What are Design Guidelines?",
+      "abstractNote": "Design guidelines are sets of recommendations on how to apply design principles to provide a positive user experience.",
+      "date": "2016 a",
+      "language": "en",
+      "shortTitle": "Design Guidelines",
+      "url": "https://www.interaction-design.org/literature/topics/design-guidelines",
+      "accessDate": "2025-07-18T14:25:35Z",
+      "websiteTitle": "The Interaction Design Foundation",
+      "creators": [
+        {
+          "name": "IxDF",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-18T14:25:35Z",
+      "dateModified": "2025-07-18T19:15:58Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/YEXVVC7Y",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://www.interaction-design.org/literature/topics/design-guidelines",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-18T14:25:41Z",
+          "dateModified": "2025-07-18T14:25:41Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/NQMBCG53",
+          "path": "/Users/simonlou/Zotero/storage/NQMBCG53/design-guidelines.html",
+          "select": "zotero://select/library/items/NQMBCG53"
+        }
+      ],
+      "notes": [],
+      "citationKey": "IxDF-2016-WhatAreDesign",
+      "itemID": 73,
+      "itemKey": "YEXVVC7Y",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/YEXVVC7Y"
+    },
+    {
+      "version": 0,
+      "itemType": "webpage",
+      "title": "What is Visual Design?",
+      "abstractNote": "Visual design aims to improve a design’s/product’s aesthetic appeal and usability with suitable images, typography, space, layout and color.",
+      "date": "2016 b",
+      "language": "en",
+      "shortTitle": "Visual Design",
+      "url": "https://www.interaction-design.org/literature/topics/visual-design",
+      "accessDate": "2025-07-18T19:10:11Z",
+      "websiteTitle": "The Interaction Design Foundation",
+      "creators": [
+        {
+          "name": "IxDF",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-18T19:10:11Z",
+      "dateModified": "2025-07-18T19:16:02Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/3QIHSPGC",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://www.interaction-design.org/literature/topics/visual-design",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-18T19:10:17Z",
+          "dateModified": "2025-07-18T19:10:17Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/BB8FLB44",
+          "path": "/Users/simonlou/Zotero/storage/BB8FLB44/visual-design.html",
+          "select": "zotero://select/library/items/BB8FLB44"
+        }
+      ],
+      "notes": [],
+      "citationKey": "IxDF-2016-WhatVisualDesign",
+      "itemID": 75,
+      "itemKey": "3QIHSPGC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/3QIHSPGC"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "Susan Kare demonstrating the Macintosh Interface in 1984",
+      "date": "1984",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=ZmWOtf4Ziso",
+      "presentationType": "Video",
+      "creators": [
+        {
+          "firstName": "Susan",
+          "lastName": "Kare",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-13T09:59:32Z",
+      "dateModified": "2025-07-26T15:20:57Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/A4U2AWZA",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "Kare-1984-SusanKareDemonstrating",
+      "itemID": 48,
+      "itemKey": "A4U2AWZA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/A4U2AWZA"
+    },
+    {
+      "version": 0,
+      "itemType": "interview",
+      "title": "A look inside teenage engineering",
+      "date": "2024",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=qCliqmX_TQ4",
+      "rights": "Figma",
+      "interviewMedium": "Config 2024",
+      "creators": [
+        {
+          "firstName": "Jesper",
+          "lastName": "Kouthoofd",
+          "creatorType": "interviewee"
+        },
+        {
+          "firstName": "Dylan",
+          "lastName": "Field",
+          "creatorType": "interviewer"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Software Sameness"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-26T21:42:14Z",
+      "dateModified": "2025-07-26T21:51:20Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/K8P2PKXN",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=qCliqmX_TQ4",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T21:43:59Z",
+          "dateModified": "2025-07-26T21:43:59Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/R5Q4RBPR",
+          "select": "zotero://select/library/items/R5Q4RBPR"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Kouthoofd-2024-LookTeenageEngineering",
+      "itemID": 98,
+      "itemKey": "K8P2PKXN",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/K8P2PKXN"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "Don’t Make Me Think: A Common Sense Approach to Web Usability",
+      "date": "2005",
+      "language": "en",
+      "libraryCatalog": "K10plus ISBN",
+      "place": "Berkeley, California",
+      "publisher": "New Riders",
+      "ISBN": "978-0-321-34475-5",
+      "edition": "2nd ed.",
+      "numPages": "201",
+      "creators": [
+        {
+          "firstName": "Steve",
+          "lastName": "Krug",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-08T09:27:05Z",
+      "dateModified": "2025-05-08T09:42:31Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/VE8IHTM2",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-08T09:27:01Z",
+          "dateModified": "2025-05-08T09:27:05Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/IXSY8LBS",
+          "path": "/Users/simonlou/Zotero/storage/IXSY8LBS/Don’t Make me Think - Krug.pdf",
+          "select": "zotero://select/library/items/IXSY8LBS"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Krug-2005-DontMakeMe",
+      "itemID": 14,
+      "itemKey": "VE8IHTM2",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VE8IHTM2"
+    },
+    {
+      "version": 0,
+      "itemType": "webpage",
+      "title": "Data Tables: Four Major User Tasks",
+      "abstractNote": "Table design should support four common user tasks: find records that fit specific criteria, compare data, view/edit/add a single row’s data, and take actions on records.",
+      "date": "2022",
+      "language": "en",
+      "shortTitle": "Data Tables",
+      "url": "https://www.nngroup.com/articles/data-tables/",
+      "accessDate": "2025-05-07T20:59:35Z",
+      "websiteTitle": "Nielsen Norman Group",
+      "creators": [
+        {
+          "firstName": "Page",
+          "lastName": "Laubheimer",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-07T20:59:35Z",
+      "dateModified": "2025-07-12T17:59:21Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/2V9D7KRG",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://www.nngroup.com/articles/data-tables/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-07T20:59:42Z",
+          "dateModified": "2025-05-07T20:59:42Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/5UYWTNII",
+          "path": "/Users/simonlou/Zotero/storage/5UYWTNII/data-tables.html",
+          "select": "zotero://select/library/items/5UYWTNII"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Laubheimer-2022-DataTablesFour",
+      "itemID": 11,
+      "itemKey": "2V9D7KRG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/2V9D7KRG"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "Software Takes Command: Extending the Language of New Media",
+      "date": "2013",
+      "language": "en",
+      "shortTitle": "Software Takes Command",
+      "libraryCatalog": "Library of Congress ISBN",
+      "callNumber": "QA76.9.C66 M3625 2013",
+      "place": "New York, London",
+      "publisher": "Bloomsbury",
+      "ISBN": "978-1-62356-745-3 978-1-62356-817-7",
+      "series": "International texts in critical media aesthetics",
+      "numPages": "357",
+      "creators": [
+        {
+          "firstName": "Lev",
+          "lastName": "Manovich",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer graphics",
+          "type": 1
+        },
+        {
+          "tag": "Computer software",
+          "type": 1
+        },
+        {
+          "tag": "Computers and civilization",
+          "type": 1
+        },
+        {
+          "tag": "Mass media",
+          "type": 1
+        },
+        {
+          "tag": "Social aspects",
+          "type": 1
+        },
+        {
+          "tag": "Social media",
+          "type": 1
+        },
+        {
+          "tag": "Technological innovations",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-05-08T10:10:12Z",
+      "dateModified": "2025-05-08T10:11:03Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/HD3HRH7I",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-08T10:10:08Z",
+          "dateModified": "2025-05-08T10:10:18Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/PMIBXQ6Y",
+          "path": "/Users/simonlou/Zotero/storage/PMIBXQ6Y/Software Takes Command - Manovich.pdf",
+          "select": "zotero://select/library/items/PMIBXQ6Y"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Manovich-2013-SoftwareTakesCommand",
+      "itemID": 21,
+      "itemKey": "HD3HRH7I",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/HD3HRH7I"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "What makes an app feel “right” on the Mac?",
+      "date": "2025",
+      "language": "en",
+      "url": "https://coyotetracks.org/blog/app-feel-on-mac/",
+      "accessDate": "2025-07-12T20:30:57Z",
+      "blogTitle": "Coyote Tracks",
+      "creators": [
+        {
+          "firstName": "Watts",
+          "lastName": "Martin",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Mac-Assed"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-12T20:30:57Z",
+      "dateModified": "2025-07-26T22:05:43Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/RLFP5AWI",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://coyotetracks.org/blog/app-feel-on-mac/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-12T20:31:08Z",
+          "dateModified": "2025-07-26T22:00:31Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/TLXDFXS9",
+          "path": "/Users/simonlou/Zotero/storage/TLXDFXS9/app-feel-on-mac.html",
+          "select": "zotero://select/library/items/TLXDFXS9"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Martin-2025-WhatMakesApp",
+      "itemID": 46,
+      "itemKey": "RLFP5AWI",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/RLFP5AWI"
+    },
+    {
+      "version": 0,
+      "itemType": "journalArticle",
+      "title": "Taking a shine to it: How the preference for glossy stems from an innate need for water",
+      "abstractNote": "Human beings are attracted to glossy objects. However, the investigation of whether this preference for glossy is a systematic bias, and the rationale for why, has received little or no attention. Drawing on an evolutionary psychology framework, we propose and test the hypothesis that the preference for glossy stems from an innate preference for fresh water as a valuable resource. In a set of six studies we demonstrate the preference for glossy among both adults and young children (studies 1A, 1B and 2) ruling out a socialization explanation, investigate the hypothesis that the preference for glossy stems from an innate need for water as a resource (studies 3 and 5) and, in addition, rule out the more superﬁcial account of glossy = pretty (study 4). The interplay between the different perspectives, implications of the ﬁndings and future research directions are discussed.",
+      "date": "2014",
+      "language": "en",
+      "shortTitle": "Taking a shine to it",
+      "volume": "24",
+      "pages": "195-206",
+      "publicationTitle": "Journal of Consumer Psychology",
+      "DOI": "https://doi.org/10.1016/j.jcps.2013.12.005",
+      "issue": "2",
+      "ISSN": "1057-7408, 1532-7663",
+      "creators": [
+        {
+          "firstName": "Katrien",
+          "lastName": "Meert",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mario",
+          "lastName": "Pandelaere",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vanessa M.",
+          "lastName": "Patrick",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-30T09:00:47Z",
+      "dateModified": "2025-07-30T09:03:02Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/9SVEJ9PR",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-30T09:00:42Z",
+          "dateModified": "2025-07-30T09:00:47Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8UV2Y5GF",
+          "path": "/Users/simonlou/Zotero/storage/8UV2Y5GF/Meert et al. - 2014 - Taking a shine to it How the preference for glossy stems from an innate need for water.pdf",
+          "select": "zotero://select/library/items/8UV2Y5GF"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Meert-2014-TakingShineIt",
+      "itemID": 107,
+      "itemKey": "9SVEJ9PR",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9SVEJ9PR"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "The Humane Interface",
+      "abstractNote": "The creator of the Macintosh project goes beyond today’s graphic user interfaces to show how the Web, computers, and information appliances can be made easier to learn and use.",
+      "date": "2000",
+      "language": "en",
+      "publisher": "Addison Wesley",
+      "ISBN": "0-201-37937-6",
+      "creators": [
+        {
+          "firstName": "Jef",
+          "lastName": "Raskin",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-08T09:34:51Z",
+      "dateModified": "2025-05-08T09:36:09Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/ZNGMF323",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ebook",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-08T09:34:48Z",
+          "dateModified": "2025-05-08T09:34:51Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/AEKCYI5S",
+          "path": "/Users/simonlou/Zotero/storage/AEKCYI5S/The Humane Interface - Raskin.epub",
+          "select": "zotero://select/library/items/AEKCYI5S"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Raskin-2000-HumaneInterface",
+      "itemID": 16,
+      "itemKey": "ZNGMF323",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZNGMF323"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Modern iOS Navigation Patterns",
+      "abstractNote": "An unofficial bonus chapter for the iOS Human Interface Guidelines: Learn how to structure iPhone apps with drill-downs, modals, pyramids, sequences, and more.",
+      "language": "en",
+      "url": "https://frankrausch.com/ios-navigation",
+      "accessDate": "2025-07-04T11:06:28Z",
+      "blogTitle": "Frank Rausch",
+      "creators": [
+        {
+          "firstName": "Frank",
+          "lastName": "Rausch",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-04T11:06:28Z",
+      "dateModified": "2025-07-12T17:59:10Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/WKWZIQQ7",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://frankrausch.com/ios-navigation/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-04T11:06:29Z",
+          "dateModified": "2025-07-04T11:06:29Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/NRF2GP87",
+          "path": "/Users/simonlou/Zotero/storage/NRF2GP87/ios-navigation.html",
+          "select": "zotero://select/library/items/NRF2GP87"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Rausch-ModernIOSNavigation",
+      "itemID": 30,
+      "itemKey": "WKWZIQQ7",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WKWZIQQ7"
+    },
+    {
+      "version": 0,
+      "itemType": "film",
+      "title": "Triumph of the Nerds",
+      "date": "1996",
+      "language": "en",
+      "url": "https://archive.org/details/triumph_of_the_nerds",
+      "runningTime": "150 min",
+      "genre": "Documentary",
+      "creators": [
+        {
+          "firstName": "Paul",
+          "lastName": "Sen",
+          "creatorType": "director"
+        },
+        {
+          "firstName": "Robert X.",
+          "lastName": "Cringely",
+          "creatorType": "scriptwriter"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-13T10:18:30Z",
+      "dateModified": "2025-07-13T10:21:49Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/P9TWSAWE",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "Sen-1996-TriumphNerds",
+      "itemID": 49,
+      "itemKey": "P9TWSAWE",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/P9TWSAWE"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Proxyman",
+      "date": "2020",
+      "language": "en",
+      "url": "https://inessential.com/2020/03/19/proxyman.html",
+      "accessDate": "2025-07-26T22:03:35Z",
+      "blogTitle": "inessential",
+      "creators": [
+        {
+          "firstName": "Brent",
+          "lastName": "Simmons",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Mac-Assed"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-26T22:03:35Z",
+      "dateModified": "2025-07-26T22:05:31Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/8XDZIUQP",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "inessential: Proxyman",
+          "url": "https://inessential.com/2020/03/19/proxyman.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T22:03:39Z",
+          "dateModified": "2025-07-26T22:03:39Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/48IH8V79",
+          "path": "/Users/simonlou/Zotero/storage/48IH8V79/proxyman.html",
+          "select": "zotero://select/library/items/48IH8V79"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Simmons-2020-Proxyman",
+      "itemID": 101,
+      "itemKey": "8XDZIUQP",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/8XDZIUQP"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "Essential Design Principles",
+      "date": "2017",
+      "language": "en",
+      "url": "https://developer.apple.com/videos/play/wwdc2017/802/",
+      "rights": "Apple",
+      "presentationType": "Video",
+      "meetingName": "WWDC17, Apple",
+      "creators": [
+        {
+          "firstName": "Mike",
+          "lastName": "Stern",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Mental Model"
+        },
+        {
+          "tag": "Consistency"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-06-29T12:12:07Z",
+      "dateModified": "2025-08-04T12:24:49Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/DIX5C2LI",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Transcript",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-06T21:15:50Z",
+          "dateModified": "2025-07-06T21:15:50Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/B3HUS2UB",
+          "path": "/Users/simonlou/Zotero/storage/B3HUS2UB/Transcript.txt",
+          "select": "zotero://select/library/items/B3HUS2UB"
+        },
+        {
+          "itemType": "attachment",
+          "title": "WWDC17 Video",
+          "url": "https://developer.apple.com/videos/play/wwdc2017/802/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-06-29T12:13:08Z",
+          "dateModified": "2025-07-06T21:15:10Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/LUMZ8BMT",
+          "select": "zotero://select/library/items/LUMZ8BMT"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Stern-2017-EssentialDesignPrinciples",
+      "itemID": 27,
+      "itemKey": "DIX5C2LI",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DIX5C2LI"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "The Qualities of Great Design",
+      "date": "2018",
+      "language": "en",
+      "url": "https://developer.apple.com/videos/play/wwdc2018/801/",
+      "rights": "Apple",
+      "presentationType": "Video",
+      "meetingName": "WWDC18, Apple",
+      "creators": [
+        {
+          "firstName": "Lauren",
+          "lastName": "Strehlow",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-10T08:08:54Z",
+      "dateModified": "2025-08-04T12:25:05Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/FARJSLTA",
+      "attachments": [],
+      "notes": [],
+      "citationKey": "Strehlow-2018-QualitiesGreatDesign",
+      "itemID": 41,
+      "itemKey": "FARJSLTA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FARJSLTA"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "Fire in the Valley: The Making of The Personal Computer",
+      "date": "1984",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "place": "Berkeley, California",
+      "publisher": "McGraw-Hill Osborne",
+      "ISBN": "978-0-88134-121-8",
+      "edition": "1st ed.",
+      "numPages": "288",
+      "creators": [
+        {
+          "firstName": "Michael",
+          "lastName": "Swaine",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Paul",
+          "lastName": "Freiberger",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-07T20:09:32Z",
+      "dateModified": "2025-05-08T09:42:46Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/FVWH3L2J",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "PDF",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-07T20:09:30Z",
+          "dateModified": "2025-05-07T20:09:33Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/V5MDUKHM",
+          "path": "/Users/simonlou/Zotero/storage/V5MDUKHM/Fire in the Valley - Swaine and Freiberger.pdf",
+          "select": "zotero://select/library/items/V5MDUKHM"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Swaine-1984-FireValleyMaking",
+      "itemID": 6,
+      "itemKey": "FVWH3L2J",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FVWH3L2J"
+    },
+    {
+      "version": 0,
+      "itemType": "book",
+      "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+      "abstractNote": "Cover -- Copyright -- Table of Contents -- Preface to the Third Edition -- Why We Wrote This Book -- Design Patterns Remain Relevant -- Software Is Systems Now -- Focus: Screen-Based, Web, and Mobile -- What's Not in This Edition -- Who This Book Is For -- How This Book Is Organized -- Introduction and Design Discussion -- The Patterns -- Conclusion -- Conventions Used in This Book -- O'Reilly Online Learning -- How to Contact Us -- Acknowledgments -- Chapter 1. Designing for People -- Context -- Know Your Audience -- Interactions Are Conversations -- Match Your Content and Functionality to Your Audience -- Skill Level -- Goals: Your Interface Is Just a Means to Their Ends -- Ask Why -- Design's Value: Solve the Right Problem, and Then Solve It Right -- Research: Ways to Understand Context and Goals -- Direct Observation -- Case Studies -- Surveys -- Personas -- Design Research Is Not Marketing Research -- The Patterns: Cognition and Behavior Related to Interface Design -- Safe Exploration -- Instant Gratification -- Satisficing -- Changes in Midstream -- Deferred Choices -- Incremental Construction -- Habituation -- Microbreaks -- Spatial Memory -- Prospective Memory -- Streamlined Repetition -- Keyboard Only -- Social Media, Social Proof, and Collaboration -- Conclusion -- Chapter 2. Organizing the Content: Information Architecture and Application Structure -- Purpose -- Definition -- Designing an Information Space for People -- Approach -- Separate Information from Presentation -- Mutually Exclusive, Collectively Exhaustive -- Ways to Organize and Categorize Content -- Alphabetical -- Number -- Time -- Location -- Hierarchy -- Category or Facet -- Designing for Task and Workflow-Dominant Apps -- Make Frequently Used Items Visible -- \"Chunk Up\" Jobs into a Sequence of Steps -- Multiple Channels and Screen Sizes Are Today's Reality",
+      "date": "2020",
+      "language": "en",
+      "shortTitle": "Designing interfaces",
+      "libraryCatalog": "K10plus ISBN",
+      "place": "Beijing, Boston, Farnham, Sebastopol, Tokyo",
+      "publisher": "O'Reilly",
+      "ISBN": "978-1-4920-5196-1 978-1-4920-5191-6",
+      "edition": "2rd ed.",
+      "numPages": "399",
+      "creators": [
+        {
+          "firstName": "Jenifer",
+          "lastName": "Tidwell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Charles",
+          "lastName": "Brewer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aynne",
+          "lastName": "Valencia",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-05-07T18:32:06Z",
+      "dateModified": "2025-05-08T09:42:55Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/XKY9Z9CN",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ebook",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-05-07T18:31:53Z",
+          "dateModified": "2025-05-07T18:32:06Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/D52WCRQH",
+          "path": "/Users/simonlou/Zotero/storage/D52WCRQH/Designing Interfaces - Tidwell et al.epub",
+          "select": "zotero://select/library/items/D52WCRQH"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Tidwell-2020-DesigningInterfacesPatterns",
+      "itemID": 3,
+      "itemKey": "XKY9Z9CN",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XKY9Z9CN"
+    },
+    {
+      "version": 0,
+      "itemType": "newspaperArticle",
+      "title": "The Guts of a New Machine",
+      "abstractNote": "Rob Walker article on success of Apple Computer’s iPod digital music player, which combines high design and powerful technology; focuses on product’s design, both appearance and function, to explain why iPod has become icon",
+      "date": "2003-11-30",
+      "language": "en",
+      "libraryCatalog": "NYTimes.com",
+      "url": "https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html",
+      "accessDate": "2025-07-18T10:18:11Z",
+      "publicationTitle": "The New York Times Magazine",
+      "creators": [
+        {
+          "firstName": "Rob",
+          "lastName": "Walker",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "APPLE COMPUTER INC",
+          "type": 1
+        },
+        {
+          "tag": "Recording Equipment",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-18T10:18:11Z",
+      "dateModified": "2025-07-18T10:23:18Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/2JHTFFIQ",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Snapshot",
+          "url": "https://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-18T10:18:15Z",
+          "dateModified": "2025-07-18T10:18:15Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/FEMGE3CZ",
+          "path": "/Users/simonlou/Zotero/storage/FEMGE3CZ/the-guts-of-a-new-machine.html",
+          "select": "zotero://select/library/items/FEMGE3CZ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Walker-2003-GutsNewMachine",
+      "itemID": 68,
+      "itemKey": "2JHTFFIQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/2JHTFFIQ"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "In defense of an old pixel",
+      "date": "2024",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=SDI8ubVZi7w",
+      "rights": "Figma",
+      "presentationType": "Video",
+      "meetingName": "Config 2024",
+      "creators": [
+        {
+          "firstName": "Marcin",
+          "lastName": "Wichary",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-26T15:04:41Z",
+      "dateModified": "2025-07-26T15:20:38Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/NUUSR94B",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Transcript",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T15:24:22Z",
+          "dateModified": "2025-07-26T15:24:30Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/DVE9XT5E",
+          "path": "/Users/simonlou/Zotero/storage/DVE9XT5E/In defense of an old pixel (Marcin Wichary).txt",
+          "select": "zotero://select/library/items/DVE9XT5E"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=SDI8ubVZi7w",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T15:06:02Z",
+          "dateModified": "2025-07-26T15:06:02Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/URCBBP5L",
+          "select": "zotero://select/library/items/URCBBP5L"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Wichary-2024-DefenseOldPixel",
+      "itemID": 88,
+      "itemKey": "NUUSR94B",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NUUSR94B"
+    },
+    {
+      "version": 0,
+      "itemType": "presentation",
+      "title": "The broken promises of design systems",
+      "date": "2024",
+      "language": "en",
+      "url": "https://www.youtube.com/watch?v=BQXTt-NZ2Bs",
+      "rights": "Figma",
+      "presentationType": "Video",
+      "meetingName": "Config 2024",
+      "creators": [
+        {
+          "firstName": "Cam",
+          "lastName": "Worboys",
+          "creatorType": "presenter"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Software Sameness"
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-07-26T16:44:31Z",
+      "dateModified": "2025-07-26T21:52:30Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/YNE2LNIA",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Video",
+          "url": "https://www.youtube.com/watch?v=BQXTt-NZ2Bs",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-26T16:45:19Z",
+          "dateModified": "2025-07-26T16:45:19Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/8IFF9KHP",
+          "select": "zotero://select/library/items/8IFF9KHP"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Worboys-2024-BrokenPromisesDesign",
+      "itemID": 93,
+      "itemKey": "YNE2LNIA",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/YNE2LNIA"
+    },
+    {
+      "version": 0,
+      "itemType": "blogPost",
+      "title": "Nostalgia for the golden era of the Mac desktop platform",
+      "date": "2018",
+      "url": "https://mainthread.blog/2018/02/19/Nostalgia-for-the-golden-age-of-the-Mac-desktop-platform/",
+      "accessDate": "2025-07-12T17:57:07Z",
+      "blogTitle": "The Main Thread",
+      "creators": [
+        {
+          "firstName": "Nicholas",
+          "lastName": "Zaillian",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-07-12T17:57:07Z",
+      "dateModified": "2025-07-12T17:58:37Z",
+      "uri": "http://zotero.org/users/local/HdFGa4nv/items/GZZM2GJ5",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Nostalgia for the golden era of the Mac desktop platform | The Main Thread",
+          "url": "https://mainthread.blog/2018/02/19/Nostalgia-for-the-golden-age-of-the-Mac-desktop-platform/",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-07-12T17:57:17Z",
+          "dateModified": "2025-07-12T17:57:17Z",
+          "uri": "http://zotero.org/users/local/HdFGa4nv/items/J4UTW226",
+          "path": "/Users/simonlou/Zotero/storage/J4UTW226/Nostalgia-for-the-golden-age-of-the-Mac-desktop-platform.html",
+          "select": "zotero://select/library/items/J4UTW226"
+        }
+      ],
+      "notes": [],
+      "citationKey": "Zaillian-2018-NostalgiaGoldenEra",
+      "itemID": 44,
+      "itemKey": "GZZM2GJ5",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GZZM2GJ5"
+    }
+  ]
+}
+
+----
+
+Badges:
+
+- file://1cq9sefzdr1zkszo
+- file://hikzbqmqfaygaekm
+- file://ijncsfyrop4ldpyl
+- file://fochkxn1jf2ndjut

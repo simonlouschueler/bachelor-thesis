@@ -1,0 +1,15 @@
+title: Default
+
+create:
+  width: 1920
+  height: 1920
+  crop: false
+  format: webp
+
+fields:
+  alt:
+    label: Alt Text
+    type: textarea
+    buttons: false
+  copyright:
+    type: text

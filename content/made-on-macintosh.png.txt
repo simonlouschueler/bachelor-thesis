@@ -1,0 +1,5 @@
+Uuid: 1cq9sefzdr1zkszo
+
+----
+
+Template: badge

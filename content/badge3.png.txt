@@ -1,0 +1,5 @@
+Uuid: ijncsfyrop4ldpyl
+
+----
+
+Template: badge

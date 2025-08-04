@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Nice';
+  src: url('../fonts/NiceVAR.woff2');
+  font-weight: 200 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nice';
+  src: url('../fonts/NiceVAR-Italic.woff2');
+  font-weight: 200 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSans';
+  src: url('../fonts/SourceSans3VF-Upright.otf.woff2');
+  font-weight: 200 900;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'SourceSans';
+  src: url('../fonts/SourceSans3VF-Italic.otf.woff2');
+  font-weight: 200 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'iAWriterMono';
+  src: url('../fonts/iAWriterMonoV.ttf');
+  font-weight: 400 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iAWriterMono';
+  src: url('../fonts/iAWriterMonoV-Italic.ttf');
+  font-weight: 400 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('../fonts/ITCGaramondStd-LtCond.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('../fonts/ITCGaramondStd-BdCond.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('../fonts/ITCGaramondStd-LtCondIta.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('../fonts/ITCGaramondStd-BdCondIta.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
