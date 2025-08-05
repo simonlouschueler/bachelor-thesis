@@ -10,8 +10,6 @@
   --text-tertiary: #353D3770;
   --text-quaternary: #353D3740;
 
-  --text-light: #FFF4E2;
-
   --accent: #FF4B14;
   --accent-transparent: #FF4B1420;
   
@@ -33,11 +31,10 @@ html {
   text-rendering: optimizeLegibility;
   
   scroll-behavior: smooth;
-
-  font-family: "SourceSans", -apple-system, sans-serif;
-  font-size: 1rem;
-  font-weight: 450;
-  letter-spacing: 0.15;
+  
+  font-family: "Nice", serif;
+  font-weight: 400;
+  font-variation-settings: "opsz" 6;
   line-height: 1.6;
   text-wrap: pretty;
 
@@ -62,21 +59,17 @@ main {
   display: flex;
   flex-direction: column;
 
-  padding: 5rem 2rem 0 2rem;
+  padding: 0 2rem;
 }
 
 p,
 p *,
 ul,
 ul * {
-  font-family: "Nice", serif;
-  font-weight: 400;
-  font-variation-settings: "opsz" 6;
   hyphens: auto;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-break: strict;
-  text-wrap: pretty;
 }
 
 h1 {
@@ -89,7 +82,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Nice", serif;
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.3;
@@ -97,7 +89,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Nice", serif;
   font-size: 1.125rem;
   font-weight: 800;
   line-height: 1.3;
@@ -145,28 +136,36 @@ a {
 
 button {
   background: var(--background);
-  border-radius: 0.5rem;
-  border: 1px solid var(--text-primary);
+  border: 1.5px solid var(--accent);
+  background: var(--accent-transparent);
   cursor: pointer;
-  transition: background-color 0.4s ease-out;
+  transition: all 0.3s ease-out;
+}
+button * {
+  color: var(--accent) !important;
+  fill: var(--accent);
 }
 button a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: var(--text-primary);
-  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
  
-  transition: background-color 0.4s ease-out;
+  transition: all 0.3s ease-out;
+}
+button svg {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  margin-right: -0.25rem;
 }
 button:hover {
-  background: var(--text-primary) !important;
+  background: var(--accent);
   transition: none;
 }
-button.primary {
-  background: var(--text-primary);
-}
-button.primary a {
-  color: var(--text-light);
+button:hover * {
+  color: var(--background) !important;
+  fill: var(--background);
 }
 button:active {
   opacity: 0.8;
@@ -184,8 +183,6 @@ button:active {
 
 article {
   flex: 1;
-
-  margin-top: 4rem;
 
   display: flex;
   flex-direction: column;
@@ -289,8 +286,8 @@ article a {
 }
 article a:hover,
 article a:hover * {
-  color: var(--accent) !important;
-  transition: none !important;
+  color: var(--accent);
+  transition: none;
 }
 
 article > figure {
@@ -350,7 +347,7 @@ span.citation {
 }
 span.citation * {
   color: var(--text-secondary);
-  font-family: "SourceSans", -apple-system, sans-serif;
+  font-family: "SourceSans", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-variant-caps: all-small-caps;
@@ -369,26 +366,69 @@ span.citation:hover {
 
 /* Home */
 
-.title {
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.hero-section--logo {
+  display: flex;
+}
+.hero-section--logo div {
+  display: flex;
+  flex-direction: column;
+}
+.hero-section--logo * {
+  line-height: 1.45rem;
+}
+.hero-section--logo span:first-of-type {
+  font-style: italic;
+}
+.hero-section--logo::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 1rem;
+}
+
+.hero-section--title {
   width: 38rem;
 }
-.title div * {
+.hero-section--title div:first-of-type * {
   font-family: "Garamond", serif;
   font-size: 6rem;
   line-height: 1.0;
   display: flex;
   flex-direction: column;
 }
-.title > p {
+.hero-section--title div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section--title p {
   font-style: italic;
 }
 
 @media (max-width: 42rem) {
-  .title {
+  .hero-section {
     width: 100%;
   }
-  .title div * {
+  .hero-section--title {
+    width: 100%;
+  }
+  .hero-section--title div:first-of-type * {
     font-size: 5rem;
+  }
+  .hero-section--title div:last-of-type {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
   }
 }
 
@@ -472,7 +512,7 @@ ul.bibliography li.highlighted * {
 
 .side-nav {
   position: absolute;
-  top: 36rem;
+  top: calc(100vh + 6rem);
   left: calc(50vw - 33rem);
   width: 12rem;
   z-index: 10;
@@ -487,9 +527,6 @@ ul.bibliography li.highlighted * {
   padding: 0.125rem 1rem;
   margin-left: -1.5px;
   border-left: 1.5px solid transparent;
-  font-family: "Nice", serif;
-  font-weight: 400;
-  font-variation-settings: "opsz" 6;
 
   transition: color 0.2s ease-out;
 }
@@ -601,6 +638,10 @@ footer > div {
   margin: 0 auto;
 }
 footer * {
+  font-family: "SourceSans", sans-serif;
+  font-size: 1rem;
+  font-weight: 450;
+  letter-spacing: 0.15;
   color: var(--text-secondary);
 }
 

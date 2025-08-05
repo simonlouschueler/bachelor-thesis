@@ -27,16 +27,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Fix Side Navigation
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
 	var elements = document.querySelectorAll('.side-nav');
 	var scrollPosition = window.scrollY;
-	var threshold = 510; // Adjust threshold as needed
 
-	elements.forEach(function(element) {
+	var threshold = window.innerHeight + 30; // Adjust threshold as needed
+
+	elements.forEach(function (element) {
 		if (scrollPosition >= threshold) {
-		element.classList.add('fixed');
+			element.classList.add('fixed');
 		} else {
-		element.classList.remove('fixed');
+			element.classList.remove('fixed');
 		}
 	});
 });

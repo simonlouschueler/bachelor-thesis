@@ -21,16 +21,32 @@
 </div>
 
 <article>
-  <div class="title">
-    <div>
-      <?php
-      $words = explode(' ', $site->headline()->value());
-      foreach ($words as $word): ?>
-        <span><?= $word ?></span>
-      <?php endforeach ?>
+  <section class="hero-section">
+    <div class="hero-section--logo">
+      <div>
+        <span>Bachelor Thesis</span>
+        <span>Simon Lou Schüler</span>
+      </div>
     </div>
-    <p><?= $site->subheadline()->kt()->inline() ?></p>
-  </div>
+    <div class="hero-section--title">
+      <div>
+        <?php
+        $words = explode(' ', $site->headline()->value());
+        foreach ($words as $word): ?>
+          <span><?= $word ?></span>
+        <?php endforeach ?>
+      </div>
+      <div>
+        <p><?= $site->subheadline()->kt()->inline() ?></p>
+        <button>
+          <a href="#side-nav">
+            <span>Start Reading</span>
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M13.03 8.22v0c.29.29.29.76 0 1.06l-4.25 4.25v0c-.3.29-.77.29-1.06 0L3.47 9.28v0c-.28-.3-.27-.76.01-1.05v0c.28-.29.74-.3 1.04-.02l2.97 2.97V3.74h0c0-.42.33-.75.75-.75 .41 0 .75.33.75.75v7.44l2.97-2.97v0c.29-.3.76-.3 1.06 0Z"/></svg>
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
   
 <?php
   $chapterNumber = 0;
