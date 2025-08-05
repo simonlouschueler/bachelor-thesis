@@ -18,7 +18,7 @@
   </footer>
   
   <?= js([
-    'assets/js/highlighter.js',
+    'assets/js/bibliography.js',
     'assets/js/side-nav.js',
     'assets/js/info-panel.js'
   ]) ?>
