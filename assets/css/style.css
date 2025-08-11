@@ -11,6 +11,7 @@
   --text-quaternary: #353D3740;
 
   --accent: #FF4B14;
+  --accent-secondary: #FF4B1485;
   --accent-transparent: #FF4B1420;
   
   --fill: #7E8C8315;
@@ -341,14 +342,15 @@ article > ol li::before {
   margin-left: 2.3rem;
 }
 
-article a {
+article a,
+article a * {
   color: currentColor;
   transition: all 0.3s ease-out;
 }
 article a:hover,
 article a:hover * {
   color: var(--accent);
-  transition: none;
+  transition: none !important;
 }
 
 article > figure {
@@ -405,6 +407,7 @@ article blockquote * {
 span.citation {
   background: var(--fill);
   padding-bottom: 0.2rem;
+  transition: all 0.3s ease-out;
 }
 span.citation * {
   color: var(--text-secondary);
@@ -422,6 +425,7 @@ span.citation a {
 
 span.citation:hover {
   background: var(--accent-transparent);
+  transition: none;
 }
 
 
@@ -539,6 +543,7 @@ ul.bibliography a {
   padding: 0.125rem 0.35rem 0.125rem 0.125rem;
   color: var(--text-tertiary);
   background: #00000008;
+  transition: all 0.3s ease-out;
 }
 ul.bibliography a span {
   white-space: nowrap;
@@ -558,6 +563,8 @@ ul.bibliography a::before {
 ul.bibliography a:hover {
   background-image: url('../icons/arrow.svg');
   background: var(--accent-transparent);
+  color: var(--accent-secondary);
+  transition: none;
 }
 ul.bibliography a:hover::before {
   background-image: url('../icons/arrow.svg');
@@ -592,12 +599,10 @@ ul.bibliography li.highlighted * {
   padding: 0.125rem 1rem;
   margin-left: -1.5px;
   border-left: 1.5px solid transparent;
-
-  transition: color 0.2s ease-out;
+  transition: color 0.3s ease-out;
 }
 .side-nav a:hover {
   color: var(--accent) !important;
-  
   transition: none;
 }
 .side-nav a.active {
@@ -664,7 +669,7 @@ ul.bibliography li.highlighted * {
   display: none;
   padding: 0.5rem;
   border-radius: 1.25rem;
-  background: var(--fill)
+  background: var(--fill);
 }
 
 .nav a,
