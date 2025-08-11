@@ -19,6 +19,9 @@ fields:
       - value: h3
         icon: h3
         text: H3
+      - value: h4
+        icon: h4
+        text: H4
   text:
     label: field.blocks.heading.text
     type: writer

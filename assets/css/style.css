@@ -73,33 +73,43 @@ ul * {
 }
 
 h1 {
-  font-family: "Garamond", serif;
   font-style: italic;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  font-variation-settings: 'opsz' 12;
+  font-size: 3.25rem;
+  font-weight: 600;
+  line-height: 1.0;
+  letter-spacing: -0.8;
+  font-variation-settings: 'opsz' 24;
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 1.3;
-  font-variation-settings: 'opsz' 6;
+  font-style: italic;
+  font-size: 2.25rem;
+  font-weight: 650;
+  line-height: 1.2;
+  font-variation-settings: 'opsz' 18;
 }
 
 h3 {
-  font-size: 1.125rem;
-  font-weight: 800;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1.3;
-  font-variation-settings: 'opsz' 6;
+  font-variation-settings: 'opsz' 12;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: 750;
+  line-height: 1.4;
+  font-variation-settings: 'opsz' 12;
 }
 
 hgroup span {
   color: var(--accent);
 }
 hgroup h1 {
-  margin-top: 0.5rem !important;
+  margin-top: 0 !important;
 }
 
 strong {
@@ -196,6 +206,7 @@ article hgroup {
 article h1,
 article h2,
 article h3,
+article h4,
 article > p,
 article > ul,
 article > ol,
@@ -210,6 +221,7 @@ article pre {
   article h1,
   article h2,
   article h3,
+  article h4,
   article p,
   article ul,
   article ol,
@@ -227,13 +239,15 @@ article h1 + ol,
 article h2 + ol {
   margin-top: 1.5rem;
 }
-article h3 + p {
+article h3 + p,
+article h4 + p {
   margin-top: 1rem;
 }
 
 article figure + h1,
 article figure + h2,
 article figure + h3,
+article figure + h4,
 article figure + p,
 article figure + ul,
 article figure + ol {
@@ -244,6 +258,7 @@ article figure + ol {
   article figure + h1,
   article figure + h2,
   article figure + h3,
+  article figure + h4,
   article figure + p,
   article figure + ul,
   article figure + ol {
@@ -398,11 +413,14 @@ span.citation:hover {
 
 .hero-section--title {
   width: 38rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .hero-section--title div:first-of-type * {
-  font-family: "Garamond", serif;
-  font-size: 6rem;
-  line-height: 1.0;
+  font-family: "InstrumentSerif", serif;
+  font-size: 5.5rem;
+  line-height: 1.05;
   display: flex;
   flex-direction: column;
 }
@@ -421,9 +439,10 @@ span.citation:hover {
   }
   .hero-section--title {
     width: 100%;
+    gap: 0.5rem;
   }
   .hero-section--title div:first-of-type * {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .hero-section--title div:last-of-type {
     flex-direction: column;

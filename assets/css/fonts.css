@@ -38,26 +38,27 @@
 }
 
 @font-face {
-  font-family: 'Garamond';
-  src: url('../fonts/ITCGaramondStd-LtCond.ttf');
+  font-family: 'InstrumentSerif';
+  src: url('../fonts/InstrumentSerif-Regular.woff2');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Garamond';
-  src: url('../fonts/ITCGaramondStd-BdCond.ttf');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Garamond';
-  src: url('../fonts/ITCGaramondStd-LtCondIta.ttf');
+  font-family: 'InstrumentSerif';
+  src: url('../fonts/InstrumentSerif-Italic.woff2');
   font-weight: 300;
   font-style: italic;
 }
+
 @font-face {
   font-family: 'Garamond';
-  src: url('../fonts/ITCGaramondStd-BdCondIta.ttf');
-  font-weight: 700;
+  src: url('../fonts/EBGaramond-VariableFont_wght.ttf');
+  font-weight: 400 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Garamond';
+  src: url('../fonts/EBGaramond-Italic-VariableFont_wght.ttf');
+  font-weight: 400 800;
   font-style: italic;
 }
