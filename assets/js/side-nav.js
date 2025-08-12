@@ -19,6 +19,22 @@ document.addEventListener('DOMContentLoaded', function() {
 			link.classList.remove('active');
 			if (link.getAttribute('href').substring(1) === current) {
 				link.classList.add('active');
+				
+				// If this is a non-chapter link, check if its parent chapter is collapsed
+				if (!link.classList.contains('chapter')) {
+					// Find the previous chapter link
+					let prevChapter = link.previousElementSibling;
+					while (prevChapter && !prevChapter.classList.contains('chapter')) {
+						prevChapter = prevChapter.previousElementSibling;
+					}
+					if (prevChapter) {
+						// Only activate chapter if its sections are collapsed (hidden)
+						const nextItem = prevChapter.nextElementSibling;
+						if (nextItem && nextItem.style.display === 'none') {
+							prevChapter.classList.add('active');
+						}
+					}
+				}
 			}
 		});
 	});
@@ -39,6 +55,75 @@ window.addEventListener('scroll', function () {
 		} else {
 			element.classList.remove('fixed');
 		}
+	});
+});
+
+
+// Chapter Navigation Collapse/Expand Functionality
+
+document.addEventListener('DOMContentLoaded', function() {
+	// Hide all non-chapter items by default
+	const allNavItems = document.querySelectorAll('.side-nav a');
+	allNavItems.forEach(item => {
+		if (!item.classList.contains('chapter')) {
+			item.style.display = 'none';
+		}
+	});
+	
+	// Add click handlers to chapter headers
+	const chapterHeaders = document.querySelectorAll('.side-nav a.chapter');
+	
+	chapterHeaders.forEach(header => {
+		header.addEventListener('click', function(e) {
+			// Only handle chevron clicks, not navigation
+			if (e.target.classList.contains('chevron') || e.target.closest('.chevron')) {
+				e.preventDefault();
+				e.stopPropagation();
+				
+				// Find all items after this chapter until next chapter
+				const currentChapter = this;
+				const nextChapter = this.nextElementSibling;
+				let currentItem = this.nextElementSibling;
+				let isExpanding = false;
+				
+				// Check if we're expanding or collapsing
+				if (currentItem && currentItem.style.display === 'none') {
+					isExpanding = true;
+				}
+				
+				// Toggle visibility of items until next chapter
+				while (currentItem && !currentItem.classList.contains('chapter')) {
+					if (currentItem.style.display === 'none') {
+						currentItem.style.display = '';
+					} else {
+						currentItem.style.display = 'none';
+					}
+					currentItem = currentItem.nextElementSibling;
+				}
+				
+				// Rotate chevron
+				const chevron = this.querySelector('.chevron svg') || this.querySelector('.chevron');
+				if (chevron) {
+					chevron.style.transform = chevron.style.transform === 'rotate(-90deg)' ? '' : 'rotate(-90deg)';
+				}
+				
+				// Update active states when expanding
+				if (isExpanding && this.classList.contains('active')) {
+					// Find the active section within this chapter
+					const activeSection = document.querySelector('.side-nav a.active:not(.chapter)');
+					if (activeSection) {
+						// Remove active from chapter, keep it on section
+						this.classList.remove('active');
+					}
+				}
+			}
+		});
+	});
+	
+	// Initialize all chapters as expanded by default
+	const chapterGroups = document.querySelectorAll('.chapter-group');
+	chapterGroups.forEach(group => {
+		group.classList.remove('collapsed');
 	});
 });
 

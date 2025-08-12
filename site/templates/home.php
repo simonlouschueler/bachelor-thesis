@@ -5,12 +5,26 @@
 <div class="side-nav" id="side-nav">
   <?php foreach ($blocks as $block): ?>
     <?php if ($block->type() === 'heading'): ?>
-    <a href="#<?= str::slug($block->text()) ?>"<?= e($block->level() == 'h1', ' class="small-caps"') ?>">
+    <a href="#<?= str::slug($block->text()) ?>"<?= e($block->level() == 'h1', ' class="chapter"') ?>">
       <?= $block->text() ?>
+      <?php if ($block->level() == 'h1'): ?>
+      <div class="chevron">
+        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.78 12.78h0c-.3.29-.77.29-1.06 0L4.47 8.53v0c-.3-.3-.3-.77 0-1.06l4.25-4.25v0c.29-.28.75-.27 1.04.01v0c.28.28.29.74.01 1.04L6.05 7.99l3.72 3.72h0c.29.29.29.76-.001 1.06Z"/>
+        </svg>
+      </div>
+      <?php endif ?>
     </a>
     <?php endif ?>
   <?php endforeach ?>
-  <a href="#appendix" class="small-caps">Appendix</a>
+  <a href="#appendix" class="chapter">
+    Appendix
+    <div class="chevron">
+      <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.78 12.78h0c-.3.29-.77.29-1.06 0L4.47 8.53v0c-.3-.3-.3-.77 0-1.06l4.25-4.25v0c.29-.28.75-.27 1.04.01v0c.28.28.29.74.01 1.04L6.05 7.99l3.72 3.72h0c.29.29.29.76-.001 1.06Z"/>
+      </svg>
+    </div>
+  </a>
   <a href="#references">References</a>
 </div>
 

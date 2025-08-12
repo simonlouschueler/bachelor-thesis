@@ -13,6 +13,7 @@
   --accent: #FF4B14;
   --accent-secondary: #FF4B1485;
   --accent-transparent: #FF4B1420;
+  --accent-transparent-light: #FF4B1409;
   
   --fill: #7E8C8315;
 
@@ -186,7 +187,7 @@ button:active {
   font-family: "SourceSans", sans-serif !important;
   font-variant-caps: all-small-caps;
   font-weight: 500 !important;
-  letter-spacing: 1.0;
+  letter-spacing: 1.0 !important;
 }
 
 
@@ -594,30 +595,73 @@ ul.bibliography li.highlighted * {
   position: fixed;
   top: 4rem;
 }
+
 .side-nav a {
   display: block;
-  padding: 0.125rem 1rem;
+  padding: 0.3rem 1rem;
   margin-left: -1.5px;
   border-left: 1.5px solid transparent;
+  font-family: "SourceSans";
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.2;
+  line-height: 1.2;
+  color: var(--text-tertiary);
   transition: color 0.3s ease-out;
+  text-decoration: none;
 }
+
 .side-nav a:hover {
   color: var(--accent) !important;
+  background: var(--accent-transparent-light);
   transition: none;
 }
+
 .side-nav a.active {
   color: var(--accent) !important;
   border-left: 1.5px solid var(--accent);
   background: var(--accent-transparent);
 }
-
-.side-nav a.small-caps {
-  color: var(--text-tertiary);
-}
-.side-nav a.small-caps:not(:first-of-type) {
-  margin-top: 1rem;
+.side-nav a.active svg {
+  fill: var(--accent-secondary) !important;
 }
 
+.side-nav a.chapter {
+  font-weight: 600;
+  padding: 0 0 0 1rem !important;
+  color: var(--text-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-nav a.chapter .chevron {
+  box-sizing: content-box;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  transition: background 0.2s ease-out;
+}
+.side-nav a.chapter svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--text-tertiary);
+  transition: transform 0.2s ease;
+}
+
+.side-nav a.chapter .chevron:hover {
+  background: var(--accent-transparent);
+  transition: none;
+}
+.side-nav a.chapter .chevron:hover svg {
+  fill: var(--accent) !important;
+}
+
+@media (min-width: 86rem) {
+  .side-nav {
+    left: calc(50vw - 39rem);
+    width: 16rem;
+  }
+}
 @media (max-width: 68rem) {
   .side-nav {
     display: none;
