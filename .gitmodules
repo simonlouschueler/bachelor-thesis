@@ -7,3 +7,6 @@
 [submodule "site/plugins/markdown-field"]
 	path = site/plugins/markdown-field
 	url = https://github.com/fabianmichael/kirby-markdown-field.git
+[submodule "site/plugins/retour"]
+	path = site/plugins/retour
+	url = https://github.com/distantnative/retour-for-kirby.git
