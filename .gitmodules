@@ -4,3 +4,6 @@
 [submodule "site/plugins/bibtex"]
 	path = site/plugins/bibtex
 	url = https://github.com/simonlouschueler/kirby-bibtex.git
+[submodule "site/plugins/markdown-field"]
+	path = site/plugins/markdown-field
+	url = https://github.com/fabianmichael/kirby-markdown-field.git
