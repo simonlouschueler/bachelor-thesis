@@ -152,6 +152,7 @@ button {
   background: var(--accent-transparent);
   cursor: pointer;
   transition: all 0.3s ease-out;
+  backdrop-filter: blur(2rem);
 }
 button * {
   color: var(--accent) !important;
@@ -408,6 +409,7 @@ article blockquote * {
 span.citation {
   background: var(--fill);
   padding-bottom: 0.2rem;
+  scroll-margin-top: 40vh;
   transition: all 0.3s ease-out;
 }
 span.citation * {
@@ -427,6 +429,38 @@ span.citation a {
 span.citation:hover {
   background: var(--accent-transparent);
   transition: none;
+}
+
+span.citation.highlighted {
+  background: var(--accent-transparent);
+}
+span.citation.highlighted * {
+  color: var(--accent);
+}
+
+
+/* Back to Citation Button */
+
+#back-to-citation {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  
+  opacity: 0;
+  visibility: hidden;
+}
+
+#back-to-citation.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 26rem) {
+  #back-to-citation {
+    bottom: 3rem;
+    right: 1rem;
+  }
 }
 
 

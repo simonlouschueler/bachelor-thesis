@@ -85,4 +85,11 @@
 
 </article>
 
+<button id="back-to-citation">
+  <a href="#reading-position">
+    <span>Back to Citation</span>
+    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M3.47 7.78v0c-.3-.3-.3-.77-.001-1.06l4.25-4.25v0c.29-.3.76-.3 1.06-.001l4.25 4.25v0c.27.29.26.75-.02 1.04l0 0c-.29.28-.75.29-1.05.01L8.98 4.79v7.44 0c0 .41-.34.75-.75.75 -.42 0-.75-.34-.75-.75v-7.44l-2.97 2.97v0c-.3.29-.77.29-1.06 0Z"/></svg>
+  </a>
+</button>
+
 <?php snippet('footer') ?>
