@@ -24,6 +24,13 @@
   background: var(--accent-transparent);
 }
 
+*:focus-visible {
+  outline-color: var(--accent);
+  outline-style: solid;
+  outline-offset: -1.5px;
+  outline-width: 1.5px;
+}
+
 html {
   background: var(--background);
 }
