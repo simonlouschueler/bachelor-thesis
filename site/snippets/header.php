@@ -46,6 +46,11 @@
   <link rel="shortcut icon" href="/assets/favicon/favicon-light.ico" media="(prefers-color-scheme: light)">
 
   <?= css('assets/css/style.css') ?>
+  
+  <script
+    src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+    data-app-id="8A89A737-C83B-4317-A376-043B4D0C23D7"
+  ></script>
 
 </head>
 
