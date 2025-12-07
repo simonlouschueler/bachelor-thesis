@@ -37,13 +37,9 @@
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-dark-32x32.png" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-dark-16x16.png" media="(prefers-color-scheme: dark)">
-  <link rel="shortcut icon" href="/assets/favicon/favicon-dark.ico" media="(prefers-color-scheme: dark)">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-light-32x32.png" media="(prefers-color-scheme: light)">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-light-16x16.png" media="(prefers-color-scheme: light)">
-  <link rel="shortcut icon" href="/assets/favicon/favicon-light.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
 
   <?= css('assets/css/style.css') ?>
   
