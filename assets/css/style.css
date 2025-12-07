@@ -223,9 +223,8 @@ article h1::before,
 article h2::before {
   content: "";
   width: 1.5rem;
-  padding-right: 1.5rem;
-  margin-right: 0.5rem;
-  margin-left: -2rem;
+  padding-right: 2.5rem;
+  margin-left: -2.5rem;
   background-image: url('../icons/hashtag.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -240,9 +239,8 @@ article h1.copied::before,
 article h2.copied::before {
   content: "";
   width: 1.5rem;
-  padding-right: 1.5rem;
-  margin-right: 0.5rem;
-  margin-left: -2rem;
+  padding-right: 2.5rem;
+  margin-left: -2.5rem;
   background-image: url('../icons/checkmark.svg');
   background-repeat: no-repeat;
   background-position: center;
