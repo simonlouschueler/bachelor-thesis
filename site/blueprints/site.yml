@@ -43,6 +43,9 @@ tabs:
               color: black
               back: white
               query: false
+          images:
+            label: "All Images"
+            type: files
               
   bibliography:
     fields:

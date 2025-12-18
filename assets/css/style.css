@@ -265,7 +265,8 @@ article > p,
 article > ul,
 article > ol,
 article blockquote,
-article pre {
+article pre,
+article figure {
   width: 38rem;
   margin-top: 2rem;
 }
@@ -280,7 +281,8 @@ article pre {
   article ul,
   article ol,
   article blockquote,
-  article pre {
+  article pre,
+  article figure {
     width: 100%;
   }
 }
@@ -365,17 +367,23 @@ article a:hover * {
 
 article > figure {
   margin-top: 4rem;
-  width: 100%;
   overflow: hidden;
 }
 
 @media (max-width: 50rem) {
   article > figure {
     margin-top: 4rem;
+    width: calc(100% + 4rem);
   }  
   article > figure + figure {
     margin-top: 0.75rem;
   }
+}
+
+article > figure ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 article > figure img {

@@ -1,0 +1,5 @@
+Uuid: cy4rapssyyesbp4h
+
+----
+
+Template: blocks/image
