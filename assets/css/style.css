@@ -300,6 +300,12 @@ article h4 + p {
   margin-top: 1rem;
 }
 
+/* Subheading style */
+article hgroup + p:has(> em:first-child),
+article h3 + p:has(> em:first-child) {
+  margin-top: 0.25rem;
+}
+
 article figure + h1,
 article figure + h2,
 article figure + h3,
