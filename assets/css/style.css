@@ -484,6 +484,7 @@ span.citation.highlighted * {
 
 .hero-section--logo {
   display: flex;
+  align-items: center;
 }
 .hero-section--logo div {
   display: flex;
@@ -496,12 +497,8 @@ span.citation.highlighted * {
   font-style: italic;
 }
 .hero-section--logo::before {
-  content: "";
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background: var(--accent);
-  margin-right: 1rem;
+  content: url("/assets/icons/logo.svg");
+  margin-right: 0.75rem;
 }
 
 .hero-section--title {
