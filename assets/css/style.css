@@ -374,8 +374,8 @@ article a:hover * {
 }
 
 article > figure {
+  position: relative;
   margin-top: 4rem;
-  overflow: hidden;
 }
 
 @media (max-width: 50rem) {
@@ -408,10 +408,42 @@ article > figure video {
 }
 
 article figcaption {
-  margin-top: 1rem;
+  position: absolute;
+  top: 0;
+  left: 40rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+article figcaption * {
+  font-family: "SourceSans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 520;
+  color: var(--green-light);
+}
+article figcaption strong {
+  font-weight: 800;
+}
 
-  font-size: 0.8rem;
-  color: var(--text-secondary);
+@media (min-width: 86rem) {
+  article figcaption {
+    left: 42rem;
+    width: 16rem;
+  }
+}
+@media (max-width: 68rem) {
+  article figcaption {
+    position: relative;
+    left: 0;
+    margin-top: 1rem;
+    max-width: 38rem;
+  }
+}
+@media (max-width: 50rem) {
+  article figcaption {
+    margin: 1rem 2rem 0 2rem;
+  }
 }
 
 article blockquote {
