@@ -129,8 +129,8 @@ strong {
 }
 
 small {
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 520;
 }
 
 code {
@@ -196,7 +196,7 @@ button:active {
 .small-caps {
   font-family: "SourceSans", sans-serif !important;
   font-variant-caps: all-small-caps;
-  font-weight: 500 !important;
+  font-weight: 520 !important;
   letter-spacing: 1.0 !important;
 }
 
@@ -471,7 +471,7 @@ span.citation {
 span.citation * {
   color: var(--text-secondary);
   font-family: "SourceSans", sans-serif;
-  font-weight: 500;
+  font-weight: 520;
   font-style: normal;
   font-variant-caps: all-small-caps;
   letter-spacing: 1.0;
@@ -689,8 +689,8 @@ ul.bibliography li.highlighted * {
   margin-left: -1.5px;
   border-left: 1.5px solid transparent;
   font-family: "SourceSans";
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 520;
   letter-spacing: 0.2;
   line-height: 1.2;
   color: var(--text-tertiary);
@@ -908,7 +908,7 @@ ul.bibliography li.highlighted * {
   border: 1.5px solid #00000010;
 }
 .info-panel * {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .info-panel.active {
@@ -987,8 +987,8 @@ footer nav {
   justify-content: space-between;
 }
 footer nav * {
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 520;
 }
 footer span {
   color: var(--text-tertiary);
