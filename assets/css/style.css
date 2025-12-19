@@ -9,6 +9,8 @@
   --text-secondary: #72746E;
   --text-tertiary: #353D3770;
   --text-quaternary: #353D3740;
+  
+  --green-light: #7F9283;
 
   --accent: #FF4B14;
   --accent-secondary: #FF4B1485;
@@ -722,6 +724,140 @@ ul.bibliography li.highlighted * {
 }
 
 
+/* Sidenotes */
+
+.sidenote-anchor {
+  position: relative;
+}
+
+.sidenote {
+  /* Vertical position and collision detection handled by JavaScript */
+  position: fixed;
+  left: calc(50vw + 21rem);
+  width: 12rem;
+  font-family: "SourceSans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 520;
+  font-style: normal;
+  color: var(--green-light);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  z-index: 1;
+}
+
+@media (min-width: 86rem) {
+  .sidenote {
+    left: calc(50vw + 23rem);
+    width: 16rem;
+  }
+}
+@media (max-width: 68rem) {
+  .sidenote {
+    /* Position off-screen at the bottom */
+    bottom: -100vh;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    transition: bottom 0.3s ease-in-out;
+    color: var(--green-light);
+    background: var(--background);
+    box-shadow: 0 -4px 3rem #00000040;
+    padding: 2rem;
+    z-index: 10;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(0, 38rem);
+  }
+  
+  .sidenote::before {
+    content: '';
+    position: absolute;
+    top: -0.4rem;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    background-image: url('/assets/icons/wave-edge.svg');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: top center;
+    pointer-events: none;
+  }
+  
+  .sidenote.active {
+    bottom: 0;
+  }
+  
+  .sidenote-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: none;
+    background: none !important;
+    backdrop-filter: none;
+    padding: 0;
+    z-index: 11;
+  }
+  
+  .sidenote-close:hover {
+    background: #00000010 !important;
+  }
+  
+  .sidenote-close svg {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+  }
+  .sidenote-close svg path {
+    fill: var(--text-secondary);
+  }
+  
+  .sidenote-toggle {
+    position: fixed;
+    right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.65rem; /* Adjustment to place on row middle */
+    border-radius: 50%;
+    background: var(--accent-transparent);
+    color: var(--background);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  
+  .sidenote-toggle svg {
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
+  }
+  
+  .sidenote-toggle svg path {
+    fill: var(--accent);
+  }
+  
+  .sidenote-toggle:hover svg path {
+    fill: var(--background);
+  }
+  
+  .sidenote-toggle.active {
+    background: var(--accent);
+  }
+  
+  .sidenote-toggle.active svg path {
+    fill: var(--background) !important;
+  }
+}
+
+
 /* Info Panel */
 
 .info-panel {
@@ -736,7 +872,7 @@ ul.bibliography li.highlighted * {
   padding: 0.5rem 1.5rem;
   background: var(--fill);
   backdrop-filter: blur(4rem);
-  z-index: 10;
+  z-index: 100;
   border: 1.5px solid #00000010;
 }
 .info-panel * {

@@ -20,7 +20,8 @@
   <?= js([
     'assets/js/bibliography.js',
     'assets/js/side-nav.js',
-    'assets/js/info-panel.js'
+    'assets/js/info-panel.js',
+    'assets/js/sidenote.js'
   ]) ?>
 
 </body>
