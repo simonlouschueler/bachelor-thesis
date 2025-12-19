@@ -1,5 +1,17 @@
-Uuid: cy4rapssyyesbp4h
+Alt: Altair 8800
+
+----
+
+Copyright: 
+
+----
+
+Uuid: ixyt6i0h3xjsy3da
 
 ----
 
 Template: blocks/image
+
+----
+
+Focus: 68.9% 2.2%
