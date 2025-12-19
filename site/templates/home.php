@@ -39,7 +39,7 @@
     <div class="hero-section--logo">
       <div>
         <span>Bachelor Thesis</span>
-        <span>Simon Lou Schüler</span>
+        <span>Simon Lou</span>
       </div>
     </div>
     <div class="hero-section--title">
