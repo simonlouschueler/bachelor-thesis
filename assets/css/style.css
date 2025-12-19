@@ -684,13 +684,20 @@ ul.bibliography li.highlighted * {
 }
 
 .side-nav a {
-  display: block;
-  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding-left: 1rem;
   margin-left: -1.5px;
-  border-left: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;  
+}
+
+.side-nav a span {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-family: "SourceSans";
   font-size: 0.85rem;
-  font-weight: 520;
+  font-weight: 600;
   letter-spacing: 0.2;
   line-height: 1.2;
   color: var(--text-tertiary);
@@ -713,19 +720,16 @@ ul.bibliography li.highlighted * {
   fill: var(--accent-secondary) !important;
 }
 
-.side-nav a.chapter {
-  font-weight: 600;
-  padding: 0 0 0 1rem !important;
+.side-nav a.chapter * {
   color: var(--text-secondary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .side-nav a.chapter .chevron {
   box-sizing: content-box;
   padding: 0.5rem;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
   transition: background 0.2s ease-out;
 }
 .side-nav a.chapter svg {

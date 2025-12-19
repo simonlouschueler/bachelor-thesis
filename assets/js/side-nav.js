@@ -72,6 +72,22 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	// Add click handlers to chapter headers
 	const chapterHeaders = document.querySelectorAll('.side-nav a.chapter');
+
+	// Hide chevron if chapter has no H2 children
+	chapterHeaders.forEach(chapter => {
+		let next = chapter.nextElementSibling;
+		let hasChildren = false;
+
+		while (next && !next.classList.contains('chapter')) {
+			hasChildren = true;
+			break;
+		}
+
+		if (!hasChildren) {
+			const chevron = chapter.querySelector('.chevron');
+			if (chevron) chevron.style.display = 'none';
+		}
+	});
 	
 	chapterHeaders.forEach(header => {
 		header.addEventListener('click', function(e) {
