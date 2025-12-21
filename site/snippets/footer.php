@@ -10,6 +10,11 @@
       <nav>
         <span>© 2025 Simon Lou. All rights reserved.</span>
         <div>
+          <?php if ($pdf = $site->files()->template("pdf")->first()): ?>
+            <a href="<?= $pdf->url() ?>" target="_blank">
+              PDF
+            </a>
+          <?php endif ?>
           <a href="https://typo.social/@simonlou" target="_blank">Mastodon</a>
           <a href="https://simonlou.com/legal" target="_blank">Legal</a>
         </div>

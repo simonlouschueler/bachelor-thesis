@@ -998,6 +998,7 @@ footer span {
 
 footer nav div {
   display: flex;
+  margin-right: -1rem;
 }
 
 @media (max-width: 32rem) {

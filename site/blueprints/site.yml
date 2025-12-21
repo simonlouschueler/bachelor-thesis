@@ -40,9 +40,18 @@ tabs:
             create:
               - default
             image:
-              color: black
-              back: white
+              color: white
+              back: black
               query: false
+          pdf:
+            label: "PDF"
+            type: files
+            template: pdf
+            image:
+              color: white
+              back: black
+              icon: attachment
+            max: 1
           images:
             label: "All Images"
             type: files
