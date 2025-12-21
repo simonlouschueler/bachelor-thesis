@@ -36,6 +36,23 @@
   </p>
 </div>
 
+<?php if ($pdf = $site->files()->template("pdf")->first()): ?>
+  <a href="<?= $pdf->url() ?>" class="download-pdf-badge" target="_blank">
+    <span>Download as PDF</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>
+  </a>
+<?php endif ?>
+
+<script>
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelectorAll('.download-pdf-badge').forEach(el => {
+        el.classList.add('visible');
+      });
+    }, 2000); // delay in ms (2 seconds)
+  });
+</script>
+
 <article>
   <section class="hero-section">
     <div class="hero-section--logo">
