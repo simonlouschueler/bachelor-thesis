@@ -1,0 +1,13 @@
+Alt: Graphic comparing the quality potential for Mac development of different frameworks
+
+----
+
+Copyright: 
+
+----
+
+Uuid: 779sweysvnw3kvmx
+
+----
+
+Template: blocks/image

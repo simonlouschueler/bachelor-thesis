@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="476px" height="224px" viewBox="0 0 476 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Comparison of the Hierarchical Layers</title>
+    <defs>
+        <path d="M0,0 L476,0 L476,224 L0,224 L0,0 Z" id="path-1"></path>
+        <path d="M0,0 L476,0 L476,672 L0,672 L0,0 Z" id="path-2"></path>
+        <path d="M0,0 L476,0 L476,1 L0,1 L0,0 Z" id="path-3"></path>
+        <path d="M0,0 L238,0 L238,98 L0,98 L0,0 Z" id="path-4"></path>
+        <linearGradient x1="27.3104931%" y1="49.7194929%" x2="29.3890344%" y2="50.8210125%" id="linearGradient-5">
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.3705081%" y1="50.3696204%" x2="96.5451589%" y2="50%" id="linearGradient-6">
+            <stop stop-color="color(display-p3 0.494 0.549 0.514)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.494 0.549 0.514)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="83.4491365%" y1="50.6105709%" x2="96.1050192%" y2="50%" id="linearGradient-7">
+            <stop stop-color="color(display-p3 0.992 0.976 0.933)" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.992 0.976 0.933)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="91.231787%" y1="50.3343052%" x2="96.4436598%" y2="50.0367165%" id="linearGradient-8">
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M3.23606798,28 L224,28 L224,28 L238,56 L17.4148262,56 C16.0852352,56 15.6069328,55.9168135 15.0922655,55.738482 C14.5775981,55.5601505 14.1351037,55.2866739 13.7454328,54.9060937 C13.355762,54.5255135 13.0674545,54.134909 12.4728433,52.9456866 L1.4472136,30.8944272 C0.953235098,29.9064702 1.35368379,28.7051241 2.34164079,28.2111456 C2.61935166,28.0722902 2.92557779,28 3.23606798,28 Z" id="path-9"></path>
+        <path d="M72.236068,22 L102.585174,22 C103.914765,22 104.393067,22.0831865 104.907735,22.261518 C105.422402,22.4398495 105.864896,22.7133261 106.254567,23.0939063 C106.644238,23.4744865 106.932546,23.865091 107.527157,25.0543134 L112.552786,35.1055728 C113.046765,36.0935298 112.646316,37.2948759 111.658359,37.7888544 C111.380648,37.9277098 111.074422,38 110.763932,38 L80.4148262,38 C79.0852352,38 78.6069328,37.9168135 78.0922655,37.738482 C77.5775981,37.5601505 77.1351037,37.2866739 76.7454328,36.9060937 C76.355762,36.5255135 76.0674545,36.134909 75.4728433,34.9456866 L70.4472136,24.8944272 C69.9532351,23.9064702 70.3536838,22.7051241 71.3416408,22.2111456 C71.6193517,22.0722902 71.9255778,22 72.236068,22 Z" id="path-10"></path>
+        <path d="M120.236068,22 L150.585174,22 C151.914765,22 152.393067,22.0831865 152.907735,22.261518 C153.422402,22.4398495 153.864896,22.7133261 154.254567,23.0939063 C154.644238,23.4744865 154.932546,23.865091 155.527157,25.0543134 L160.552786,35.1055728 C161.046765,36.0935298 160.646316,37.2948759 159.658359,37.7888544 C159.380648,37.9277098 159.074422,38 158.763932,38 L128.414826,38 C127.085235,38 126.606933,37.9168135 126.092265,37.738482 C125.577598,37.5601505 125.135104,37.2866739 124.745433,36.9060937 C124.355762,36.5255135 124.067454,36.134909 123.472843,34.9456866 L118.447214,24.8944272 C117.953235,23.9064702 118.353684,22.7051241 119.341641,22.2111456 C119.619352,22.0722902 119.925578,22 120.236068,22 Z" id="path-11"></path>
+        <path d="M168.236068,22 L198.585174,22 C199.914765,22 200.393067,22.0831865 200.907735,22.261518 C201.422402,22.4398495 201.864896,22.7133261 202.254567,23.0939063 C202.644238,23.4744865 202.932546,23.865091 203.527157,25.0543134 L208.552786,35.1055728 C209.046765,36.0935298 208.646316,37.2948759 207.658359,37.7888544 C207.380648,37.9277098 207.074422,38 206.763932,38 L176.414826,38 C175.085235,38 174.606933,37.9168135 174.092265,37.738482 C173.577598,37.5601505 173.135104,37.2866739 172.745433,36.9060937 C172.355762,36.5255135 172.067454,36.134909 171.472843,34.9456866 L166.447214,24.8944272 C165.953235,23.9064702 166.353684,22.7051241 167.341641,22.2111456 C167.619352,22.0722902 167.925578,22 168.236068,22 Z" id="path-12"></path>
+        <linearGradient x1="50%" y1="51.2324863%" x2="50%" y2="100%" id="linearGradient-13">
+            <stop stop-color="color(display-p3 0.494 0.549 0.514)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.494 0.549 0.514)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-14">
+            <stop stop-color="color(display-p3 0.992 0.976 0.933)" stop-opacity="0.2" offset="26.6307911%"></stop>
+            <stop stop-color="color(display-p3 0.992 0.976 0.933)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="70.3780594%" x2="50%" y2="99.647618%" id="linearGradient-15">
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M3.23606798,14 L66.5851738,14 C67.9147648,14 68.3930672,14.0831865 68.9077345,14.261518 C69.4224019,14.4398495 69.8648963,14.7133261 70.2545672,15.0939063 C70.644238,15.4744865 70.9325455,15.865091 71.5271567,17.0543134 L112,98 L112,98 L42,98 L1.4472136,16.8944272 C0.953235098,15.9064702 1.35368379,14.7051241 2.34164079,14.2111456 C2.61935166,14.0722902 2.92557779,14 3.23606798,14 Z" id="path-16"></path>
+        <path d="M0,0 L238,0 L238,70 L0,70 L0,0 Z" id="path-17"></path>
+        <linearGradient x1="46.4719609%" y1="49.4684287%" x2="47.6245092%" y2="50.4747032%" id="linearGradient-18">
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 1.000 1.000 1.000)" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-19" cx="18" cy="14" rx="4" ry="3"></ellipse>
+        <ellipse id="path-20" cx="30" cy="14" rx="4" ry="3"></ellipse>
+        <ellipse id="path-21" cx="42" cy="14" rx="4" ry="3"></ellipse>
+        <path d="M80,28 C68.6666667,28 61.1666667,24.5 57.5,17.5 C53.8333333,10.5 56.6666667,7 66,7 L112,7 C121.333333,7 127.833333,10.5 131.5,17.5 C135.166667,24.5 133.333333,28 126,28 L80,28 Z" id="path-22"></path>
+        <path d="M162,28 C150.666667,28 143.166667,24.5 139.5,17.5 C135.833333,10.5 138.666667,7 148,7 L149,7 C158.333333,7 164.833333,10.5 168.5,17.5 C172.166667,24.5 170.333333,28 163,28 L162,28 Z" id="path-23"></path>
+        <path d="M199,28 C187.666667,28 180.166667,24.5 176.5,17.5 C172.833333,10.5 175.666667,7 185,7 L186,7 C195.333333,7 201.833333,10.5 205.5,17.5 C209.166667,24.5 207.333333,28 200,28 L199,28 Z" id="path-24"></path>
+    </defs>
+    <g id="Comparison-of-the-Hierarchical-Layers" stroke="none" fill="none" xlink:href="#path-1">
+        <use fill="color(display-p3 0.494 0.549 0.514)" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Stack" opacity="0.0299999993" xlink:href="#path-2" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1">
+            <line x1="476" y1="224" x2="0" y2="224" id="Path"></line>
+            <line x1="476" y1="210" x2="0" y2="210" id="Path"></line>
+            <line x1="476" y1="196" x2="0" y2="196" id="Path"></line>
+            <line x1="476" y1="182" x2="0" y2="182" id="Path"></line>
+            <line x1="476" y1="168" x2="0" y2="168" id="Path"></line>
+            <line x1="476" y1="154" x2="0" y2="154" id="Path"></line>
+            <line x1="476" y1="140" x2="0" y2="140" id="Path"></line>
+            <line x1="476" y1="126" x2="0" y2="126" id="Path"></line>
+            <line x1="476" y1="112" x2="0" y2="112" id="Path"></line>
+            <line x1="476" y1="98" x2="0" y2="98" id="Path"></line>
+            <line x1="476" y1="84" x2="0" y2="84" id="Path"></line>
+            <line x1="476" y1="70" x2="0" y2="70" id="Path"></line>
+            <line x1="476" y1="56" x2="0" y2="56" id="Path"></line>
+            <line x1="476" y1="42" x2="0" y2="42" id="Path"></line>
+            <line x1="476" y1="28" x2="0" y2="28" id="Path"></line>
+            <line x1="476" y1="14" x2="0" y2="14" id="Path"></line>
+        </g>
+        <g id="Stack" opacity="0.0299999993" xlink:href="#path-3" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1">
+            <line x1="462" y1="-539.5" x2="462" y2="540.5" id="Path"></line>
+            <line x1="448" y1="-539.5" x2="448" y2="540.5" id="Path"></line>
+            <line x1="434" y1="-539.5" x2="434" y2="540.5" id="Path"></line>
+            <line x1="420" y1="-539.5" x2="420" y2="540.5" id="Path"></line>
+            <line x1="406" y1="-539.5" x2="406" y2="540.5" id="Path"></line>
+            <line x1="392" y1="-539.5" x2="392" y2="540.5" id="Path"></line>
+            <line x1="378" y1="-539.5" x2="378" y2="540.5" id="Path"></line>
+            <line x1="364" y1="-539.5" x2="364" y2="540.5" id="Path"></line>
+            <line x1="350" y1="-539.5" x2="350" y2="540.5" id="Path"></line>
+            <line x1="336" y1="-539.5" x2="336" y2="540.5" id="Path"></line>
+            <line x1="322" y1="-539.5" x2="322" y2="540.5" id="Path"></line>
+            <line x1="308" y1="-539.5" x2="308" y2="540.5" id="Path"></line>
+            <line x1="294" y1="-539.5" x2="294" y2="540.5" id="Path"></line>
+            <line x1="280" y1="-539.5" x2="280" y2="540.5" id="Path"></line>
+            <line x1="266" y1="-539.5" x2="266" y2="540.5" id="Path"></line>
+            <line x1="252" y1="-539.5" x2="252" y2="540.5" id="Path"></line>
+            <line x1="238" y1="-539.5" x2="238" y2="540.5" id="Path"></line>
+            <line x1="224" y1="-539.5" x2="224" y2="540.5" id="Path"></line>
+            <line x1="210" y1="-539.5" x2="210" y2="540.5" id="Path"></line>
+            <line x1="196" y1="-539.5" x2="196" y2="540.5" id="Path"></line>
+            <line x1="182" y1="-539.5" x2="182" y2="540.5" id="Path"></line>
+            <line x1="168" y1="-539.5" x2="168" y2="540.5" id="Path"></line>
+            <line x1="154" y1="-539.5" x2="154" y2="540.5" id="Path"></line>
+            <line x1="140" y1="-539.5" x2="140" y2="540.5" id="Path"></line>
+            <line x1="126" y1="-539.5" x2="126" y2="540.5" id="Path"></line>
+            <line x1="112" y1="-539.5" x2="112" y2="540.5" id="Path"></line>
+            <line x1="98" y1="-539.5" x2="98" y2="540.5" id="Path"></line>
+            <line x1="84" y1="-539.5" x2="84" y2="540.5" id="Path"></line>
+            <line x1="70" y1="-539.5" x2="70" y2="540.5" id="Path"></line>
+            <line x1="56" y1="-539.5" x2="56" y2="540.5" id="Path"></line>
+            <line x1="42" y1="-539.5" x2="42" y2="540.5" id="Path"></line>
+            <line x1="28" y1="-539.5" x2="28" y2="540.5" id="Path"></line>
+            <line x1="14" y1="-539.5" x2="14" y2="540.5" id="Path"></line>
+        </g>
+        <text id="macOS-Sequoia" font-family="SourceSans3VF-Medium, SourceSans3VF" font-size="8" font-weight="400" fill="color(display-p3 0.992 0.976 0.933)">
+            <tspan x="28" y="51">macOS Sequoia </tspan>
+        </text>
+        <text id="macOS-Tahoe" font-family="SourceSans3VF-Medium, SourceSans3VF" font-size="8" font-weight="400" fill="color(display-p3 0.992 0.976 0.933)">
+            <tspan x="28" y="149">macOS Tahoe </tspan>
+        </text>
+        <g id="Comparison-of-the-Hierarchical-Layers---Sequoia-" transform="translate(140, 14)" xlink:href="#path-4">
+            <path d="M3.23606798,42 L206.585174,42 C207.914765,42 208.393067,42.0831865 208.907735,42.261518 C209.422402,42.4398495 209.864896,42.7133261 210.254567,43.0939063 C210.644238,43.4744865 210.932546,43.865091 211.527157,45.0543134 L222.552786,67.1055728 C223.046765,68.0935298 222.646316,69.2948759 221.658359,69.7888544 C221.380648,69.9277098 221.074422,70 220.763932,70 L17.4148262,70 C16.0852352,70 15.6069328,69.9168135 15.0922655,69.738482 C14.5775981,69.5601505 14.1351037,69.2866739 13.7454328,68.9060937 C13.355762,68.5255135 13.0674545,68.134909 12.4728433,66.9456866 L1.4472136,44.8944272 C0.953235098,43.9064702 1.35368379,42.7051241 2.34164079,42.2111456 C2.61935166,42.0722902 2.92557779,42 3.23606798,42 Z" id="Rectangle" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <path d="M28,98 L1.4472136,44.8944272 C0.953235098,43.9064702 1.35368379,42.7051241 2.34164079,42.2111456 C2.61935166,42.0722902 2.92557779,42 3.23606798,42 L238,42 L238,42" id="Path" stroke="url(#linearGradient-5)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Rectangle" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="url(#linearGradient-6)" xlink:href="#path-9"></use>
+                <use stroke="url(#linearGradient-8)" stroke-width="1" fill="url(#linearGradient-7)" xlink:href="#path-9"></use>
+            </g>
+            <path d="M72.236068,34 L102.585174,34 C103.914765,34 104.393067,34.0831865 104.907735,34.261518 C105.422402,34.4398495 105.864896,34.7133261 106.254567,35.0939063 C106.644238,35.4744865 106.932546,35.865091 107.527157,37.0543134 L112.552786,47.1055728 C113.046765,48.0935298 112.646316,49.2948759 111.658359,49.7888544 C111.380648,49.9277098 111.074422,50 110.763932,50 L80.4148262,50 C79.0852352,50 78.6069328,49.9168135 78.0922655,49.738482 C77.5775981,49.5601505 77.1351037,49.2866739 76.7454328,48.9060937 C76.355762,48.5255135 76.0674545,48.134909 75.4728433,46.9456866 L70.4472136,36.8944272 C69.9532351,35.9064702 70.3536838,34.7051241 71.3416408,34.2111456 C71.6193517,34.0722902 71.9255778,34 72.236068,34 Z" id="Rectangle" stroke="color(display-p3 0.992 0.976 0.933)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <path d="M120.236068,34 L150.585174,34 C151.914765,34 152.393067,34.0831865 152.907735,34.261518 C153.422402,34.4398495 153.864896,34.7133261 154.254567,35.0939063 C154.644238,35.4744865 154.932546,35.865091 155.527157,37.0543134 L160.552786,47.1055728 C161.046765,48.0935298 160.646316,49.2948759 159.658359,49.7888544 C159.380648,49.9277098 159.074422,50 158.763932,50 L128.414826,50 C127.085235,50 126.606933,49.9168135 126.092265,49.738482 C125.577598,49.5601505 125.135104,49.2866739 124.745433,48.9060937 C124.355762,48.5255135 124.067454,48.134909 123.472843,46.9456866 L118.447214,36.8944272 C117.953235,35.9064702 118.353684,34.7051241 119.341641,34.2111456 C119.619352,34.0722902 119.925578,34 120.236068,34 Z" id="Rectangle" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <path d="M168.236068,34 L198.585174,34 C199.914765,34 200.393067,34.0831865 200.907735,34.261518 C201.422402,34.4398495 201.864896,34.7133261 202.254567,35.0939063 C202.644238,35.4744865 202.932546,35.865091 203.527157,37.0543134 L208.552786,47.1055728 C209.046765,48.0935298 208.646316,49.2948759 207.658359,49.7888544 C207.380648,49.9277098 207.074422,50 206.763932,50 L176.414826,50 C175.085235,50 174.606933,49.9168135 174.092265,49.738482 C173.577598,49.5601505 173.135104,49.2866739 172.745433,48.9060937 C172.355762,48.5255135 172.067454,48.134909 171.472843,46.9456866 L166.447214,36.8944272 C165.953235,35.9064702 166.353684,34.7051241 167.341641,34.2111456 C167.619352,34.0722902 167.925578,34 168.236068,34 Z" id="Rectangle" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <g id="Rectangle" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-10"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-10"></use>
+            </g>
+            <g id="Rectangle" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-11"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-11"></use>
+            </g>
+            <g id="Rectangle" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-12"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-12"></use>
+            </g>
+            <g id="Rectangle" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="url(#linearGradient-13)" xlink:href="#path-16"></use>
+                <use stroke="url(#linearGradient-15)" stroke-width="1" fill="url(#linearGradient-14)" xlink:href="#path-16"></use>
+            </g>
+            <ellipse id="Oval" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill="color(display-p3 0.494 0.549 0.514)" fill-rule="evenodd" cx="18" cy="23" rx="4" ry="3"></ellipse>
+            <ellipse id="Oval" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill="color(display-p3 0.494 0.549 0.514)" fill-rule="evenodd" cx="30" cy="23" rx="4" ry="3"></ellipse>
+            <ellipse id="Oval" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill="color(display-p3 0.494 0.549 0.514)" fill-rule="evenodd" cx="42" cy="23" rx="4" ry="3"></ellipse>
+        </g>
+        <g id="Comparison-of-the-Hierarchical-Layers----Tahoe" transform="translate(140, 126)" xlink:href="#path-17">
+            <path d="M28,70 L2.89442719,19.7888544 C1.9064702,17.8129404 2.70736758,15.4102482 4.68328157,14.4222912 C5.23870331,14.1445804 5.85115557,14 6.47213595,14 L238,14 L238,14" id="Path" stroke="url(#linearGradient-18)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+            <ellipse id="Oval" stroke="color(display-p3 0.992 0.976 0.933)" stroke-width="1" opacity="0.149999991" cx="18" cy="24" rx="4" ry="3"></ellipse>
+            <ellipse id="Oval" stroke="color(display-p3 0.992 0.976 0.933)" stroke-width="1" opacity="0.149999991" cx="30" cy="24" rx="4" ry="3"></ellipse>
+            <ellipse id="Oval" stroke="color(display-p3 0.992 0.976 0.933)" stroke-width="1" opacity="0.149999991" cx="42" cy="24" rx="4" ry="3"></ellipse>
+            <g id="Oval" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-19"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-19"></use>
+            </g>
+            <g id="Oval" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-20"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-20"></use>
+            </g>
+            <g id="Oval" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-21"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-21"></use>
+            </g>
+            <path d="M80,40 C68.6666667,40 61.1666667,36.5 57.5,29.5 C53.8333333,22.5 56.6666667,19 66,19 L112,19 C121.333333,19 127.833333,22.5 131.5,29.5 C135.166667,36.5 133.333333,40 126,40 L80,40 Z" id="Path" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <path d="M162,40 C150.666667,40 143.166667,36.5 139.5,29.5 C135.833333,22.5 138.666667,19 148,19 L149,19 C158.333333,19 164.833333,22.5 168.5,29.5 C172.166667,36.5 170.333333,40 163,40 L162,40 Z" id="Path" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <path d="M199,40 C187.666667,40 180.166667,36.5 176.5,29.5 C172.833333,22.5 175.666667,19 185,19 L186,19 C195.333333,19 201.833333,22.5 205.5,29.5 C209.166667,36.5 207.333333,40 200,40 L199,40 Z" id="Path" stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" opacity="0.149999991" stroke-linejoin="round"></path>
+            <g id="Path" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-22"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-22"></use>
+            </g>
+            <g id="Path" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-23"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-23"></use>
+            </g>
+            <g id="Path" stroke-linejoin="round" fill-rule="evenodd">
+                <use fill="color(display-p3 0.494 0.549 0.514)" xlink:href="#path-24"></use>
+                <use stroke="color(display-p3 1.000 1.000 1.000)" stroke-width="1" fill-opacity="0.2" fill="color(display-p3 0.992 0.976 0.933)" xlink:href="#path-24"></use>
+            </g>
+        </g>
+    </g>
+</svg>

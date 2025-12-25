@@ -1,0 +1,17 @@
+Alt: Graphic comparing the quality for Mac development of different frameworks
+
+----
+
+Copyright: 
+
+----
+
+Uuid: tisfr2lwlbmvx5dy
+
+----
+
+Template: blocks/image
+
+----
+
+Focus: 62.4% 0.9%

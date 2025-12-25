@@ -1,0 +1,13 @@
+Alt: 
+
+----
+
+Copyright: 
+
+----
+
+Uuid: clsqjhqlpfymxppx
+
+----
+
+Template: blocks/image
