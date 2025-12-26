@@ -131,28 +131,49 @@ async function positionSidenotes() {
     if (!sidenote) continue;
     
     const anchorRect = anchor.getBoundingClientRect();
-    const idealTop = anchorRect.top;
     
     if (isSmall) {
-      // On small screens: create toggle button and position sidenote off-screen
+      // On small screens: create toggle button and position button only
       await createSidenoteButton(anchor, sidenote);
       
       const button = anchor.querySelector('.sidenote-toggle');
       if (button) {
-        // Position button at right edge, aligned with anchor
-        button.style.top = `${idealTop}px`;
+        // Position button at right edge, aligned with anchor (using fixed positioning)
+        button.style.top = `${anchorRect.top}px`;
         button.style.transform = 'translateY(-50%)';
       }
       
-      // Position sidenote off-screen at bottom (handled by CSS)
+      // Position sidenote fixed at bottom of screen (CSS handles bottom value via .active class)
+      // Clear any large-screen positioning styles
       sidenote.style.position = 'fixed';
-      // Remove top positioning - let CSS handle bottom positioning
-      sidenote.style.top = 'auto';
-      sidenote.style.transform = 'none';
+      sidenote.style.top = '';
+      sidenote.style.left = '';
+      sidenote.style.transform = '';
+      // Don't set bottom inline - let CSS handle it via .active class for smooth transitions
     } else {
-      // On large screens: normal positioning
-      sidenote.style.position = 'fixed';
-      sidenote.style.top = `${idealTop}px`;
+      // On large screens: use absolute positioning (calculated once, scrolls with page)
+      // Position relative to anchor (which has position: relative)
+      // Top aligns with anchor's top, so use 0
+      
+      // Calculate left position to match CSS calc(50vw + 21rem) or calc(50vw + 23rem) for larger screens
+      // Get anchor's absolute left position in document
+      const anchorAbsoluteLeft = anchorRect.left + window.scrollX;
+      
+      // Calculate target left: viewport center + 21rem (or 23rem for screens >= 86rem)
+      const viewportWidth = window.innerWidth;
+      const remValue = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+      const remOffset = viewportWidth >= 86 * remValue ? 23 : 21; // Match CSS media query
+      const targetLeft = viewportWidth / 2 + (remOffset * remValue);
+      
+      // Calculate relative left: target position minus anchor's left
+      const relativeLeft = targetLeft - anchorAbsoluteLeft;
+      
+      // Position relative to anchor
+      // Clear any small-screen positioning styles
+      sidenote.style.position = 'absolute';
+      sidenote.style.top = '0';
+      sidenote.style.left = `${relativeLeft}px`;
+      sidenote.style.bottom = '';
       sidenote.style.transform = 'none';
       
       // Remove toggle button if it exists
@@ -167,6 +188,11 @@ async function positionSidenotes() {
     // Get actual height after positioning
     const sidenoteRect = sidenote.getBoundingClientRect();
     
+    // Calculate ideal top for collision detection
+    // For small screens: viewport-relative for button
+    // For large screens: 0 (relative to anchor) since we use top: 0
+    const idealTop = isSmall ? anchorRect.top : 0;
+    
     sidenoteData.push({
       sidenote,
       idealTop,
@@ -178,34 +204,55 @@ async function positionSidenotes() {
   
   // Second pass: resolve overlaps by pushing overlapping sidenotes down (only on large screens)
   if (!isSmall) {
-    for (let i = 0; i < sidenoteData.length; i++) {
-      const current = sidenoteData[i];
-      let adjustedTop = current.currentTop;
+    // Get absolute positions for collision detection
+    const absolutePositions = sidenoteData.map((data, idx) => {
+      const anchor = anchors[idx];
+      const anchorRect = anchor.getBoundingClientRect();
+      const anchorAbsoluteTop = anchorRect.top + window.scrollY;
+      return {
+        data,
+        absoluteTop: anchorAbsoluteTop + data.currentTop,
+        absoluteBottom: anchorAbsoluteTop + data.currentTop + data.height
+      };
+    });
+    
+    for (let i = 0; i < absolutePositions.length; i++) {
+      const current = absolutePositions[i];
+      let adjustedAbsoluteTop = current.absoluteTop;
       
       // Check against all previous sidenotes
       for (let j = 0; j < i; j++) {
-        const previous = sidenoteData[j];
-        const previousBottom = previous.currentTop + previous.height;
+        const previous = absolutePositions[j];
+        const previousBottom = previous.absoluteBottom;
         
         // If current sidenote overlaps with previous (within minSpacing)
-        if (adjustedTop < previousBottom + minSpacing) {
-          adjustedTop = previousBottom + minSpacing;
+        if (adjustedAbsoluteTop < previousBottom + minSpacing) {
+          adjustedAbsoluteTop = previousBottom + minSpacing;
         }
       }
       
-      // Apply adjusted position
-      if (adjustedTop !== current.currentTop) {
-        current.sidenote.style.top = `${adjustedTop}px`;
-        current.currentTop = adjustedTop;
+      // Convert back to relative position and apply
+      const anchor = anchors[i];
+      const anchorRect = anchor.getBoundingClientRect();
+      const anchorAbsoluteTop = anchorRect.top + window.scrollY;
+      const relativeTop = adjustedAbsoluteTop - anchorAbsoluteTop;
+      
+      if (relativeTop !== current.data.currentTop) {
+        current.data.sidenote.style.top = `${relativeTop}px`;
+        current.data.currentTop = relativeTop;
+        // Update absolute position for next iterations
+        current.absoluteTop = adjustedAbsoluteTop;
+        current.absoluteBottom = adjustedAbsoluteTop + current.data.height;
       }
     }
   } else {
-    // On small screens, also adjust button positions to avoid overlaps
+    // On small screens, adjust button positions to avoid overlaps
     for (let i = 0; i < sidenoteData.length; i++) {
       const current = sidenoteData[i];
       if (!current.button) continue;
       
-      let adjustedTop = current.idealTop;
+      const buttonRect = current.button.getBoundingClientRect();
+      let adjustedTop = buttonRect.top;
       
       // Check against all previous buttons
       for (let j = 0; j < i; j++) {
@@ -221,11 +268,9 @@ async function positionSidenotes() {
         }
       }
       
-      // Apply adjusted position to both button and sidenote
-      if (adjustedTop !== current.idealTop) {
+      // Apply adjusted position to button only (not sidenote)
+      if (adjustedTop !== buttonRect.top) {
         current.button.style.top = `${adjustedTop}px`;
-        current.sidenote.style.top = `${adjustedTop}px`;
-        current.currentTop = adjustedTop;
       }
     }
   }
@@ -256,17 +301,6 @@ function setupClickOutsideHandler() {
   }
 }
 
-async function updateSidenotes() {
-  await positionSidenotes();
-  rafId = null;
-}
-
-function scheduleUpdate() {
-  if (!rafId) {
-    rafId = requestAnimationFrame(updateSidenotes);
-  }
-}
-
 // Position sidenotes on load
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
@@ -290,6 +324,24 @@ window.addEventListener('resize', () => {
   }, 100);
 });
 
-// Reposition on scroll using requestAnimationFrame for smooth updates
-window.addEventListener('scroll', scheduleUpdate, { passive: true });
+// On small screens, update button positions on scroll (buttons use fixed positioning)
+window.addEventListener('scroll', () => {
+  if (isSmallScreen()) {
+    if (!rafId) {
+      rafId = requestAnimationFrame(() => {
+        if (!anchors) {
+          anchors = document.querySelectorAll('.sidenote-anchor');
+        }
+        for (const anchor of anchors) {
+          const button = anchor.querySelector('.sidenote-toggle');
+          if (button) {
+            const anchorRect = anchor.getBoundingClientRect();
+            button.style.top = `${anchorRect.top}px`;
+          }
+        }
+        rafId = null;
+      });
+    }
+  }
+}, { passive: true });
 
