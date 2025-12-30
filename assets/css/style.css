@@ -261,6 +261,8 @@ article h1,
 article h2,
 article h3,
 article h4,
+article h5,
+article h6,
 article > p,
 article > ul,
 article > ol,
@@ -277,6 +279,8 @@ article figure {
   article h2,
   article h3,
   article h4,
+  article h5,
+  article h6,
   article p,
   article ul,
   article ol,
@@ -289,21 +293,24 @@ article figure {
 
 article h1 + p,
 article h2 + p,
+article h3 + p,
+article h4 + p,
 article h1 + ul,
 article h2 + ul,
+article h3 + ul,
+article h4 + ul,
 article h1 + ol,
-article h2 + ol {
+article h2 + ol,
+article h3 + ol,
+article h4 + ol {
   margin-top: 1.5rem;
-}
-article h3 + p,
-article h4 + p {
-  margin-top: 1rem;
 }
 
 /* Subheading style */
-article hgroup + p:has(> em:first-child),
-article h3 + p:has(> em:first-child) {
+article h6 {
+  font-size: 1.0rem;
   margin-top: 0.25rem;
+  font-style: italic;
 }
 
 article figure + h1,
@@ -339,7 +346,6 @@ article > ol {
 article > ul li p,
 article > ol li p {
   margin-top: 0;
-  /* line-height: 2rem; */
 }
 article > ul li,
 article > ol li {
@@ -349,7 +355,6 @@ article > ol li {
 }
 article > ul li::before {
   content: "—";
-  /* line-height: 2rem; */
   margin-right: 0.5rem;
 }
 
