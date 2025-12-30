@@ -922,6 +922,16 @@ ul.bibliography li.highlighted * {
   display: flex;
 }
 
+.info-panel a {
+  transition: all 0.3s ease; 
+}
+.info-panel a:hover {
+  color: var(--accent);
+  text-decoration: underline 1.5px var(--accent-transparent);
+  text-underline-offset: 0.15rem;
+  transition: none; 
+}
+
 
 /* Download PDF Badge */
 
