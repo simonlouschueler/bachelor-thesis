@@ -11,11 +11,11 @@ Text:
 (link: https://www.fh-potsdam.de/en/study-further-education/departments/design-department text: University of Applied Sciences Potsdam target: _blank)
 
 *Surpervised by*
-Prof. Boris Müller
-Frank Rausch
+(link: https://www.esono.com text: Prof. Boris Müller target: _blank)
+(link: https://frankrausch.com text: Frank Rausch target: _blank)
 
-*Period of Origin*
-September 17 to December 16, 2025
+
+*Berlin, December 2025*
 
 ----
 

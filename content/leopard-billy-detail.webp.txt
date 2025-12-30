@@ -1,0 +1,13 @@
+Alt: Billy inspired by Mac OS X Leopard (Detail)
+
+----
+
+Copyright: 
+
+----
+
+Uuid: bzcosrzxh3rgmnpq
+
+----
+
+Template: blocks/image
