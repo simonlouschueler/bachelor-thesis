@@ -18,6 +18,8 @@ tabs:
                   - markdown
                   - image
                   - gallery
+              credits:
+                type: markdown
               badges:
                 type: files
                 uploads:

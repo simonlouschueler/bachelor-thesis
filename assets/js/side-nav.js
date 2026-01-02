@@ -41,22 +41,57 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Fix Side Navigation
+// Position Side Navigation - Fixed when scrolling, bottom-aligned with article when reaching end
 
-window.addEventListener('scroll', function () {
+function updateSideNavPosition() {
 	var elements = document.querySelectorAll('.side-nav');
+	var article = document.querySelector('article');
+	
+	if (!article) return;
+	
+	// Offset to fine-tune when bottom alignment kicks in (in pixels)
+	var bottomAlignOffset = 480;
+	
 	var scrollPosition = window.scrollY;
-
-	var threshold = window.innerHeight + 30; // Adjust threshold as needed
+	var windowHeight = window.innerHeight;
+	var threshold = windowHeight + 30; // Threshold for fixing side nav
+	var articleTop = article.offsetTop;
+	var articleHeight = article.offsetHeight;
+	var articleBottom = articleTop + articleHeight;
+	
+	// Calculate when side nav should be bottom-aligned with article
+	// This happens when the bottom of the viewport reaches or passes the article bottom (with offset)
+	var viewportBottom = scrollPosition + windowHeight;
+	var shouldBottomAlign = viewportBottom >= (articleBottom + bottomAlignOffset);
 
 	elements.forEach(function (element) {
-		if (scrollPosition >= threshold) {
-			element.classList.add('fixed');
-		} else {
+		var sideNavHeight = element.offsetHeight;
+		
+		if (shouldBottomAlign) {
+			// When reaching end of article: unfix and bottom-align with article
+			// Calculate the top position to align bottom of side nav with bottom of article
+			var calculatedTop = articleBottom - sideNavHeight;
+			
+			element.classList.add('bottom-aligned');
 			element.classList.remove('fixed');
+			element.style.top = calculatedTop + 'px';
+		} else if (scrollPosition >= threshold) {
+			// Before reaching article end: fix the side nav when scrolling past threshold
+			element.classList.add('fixed');
+			element.classList.remove('bottom-aligned');
+			element.style.top = '';
+		} else {
+			// Before threshold: normal scrolling (unfixed)
+			element.classList.remove('fixed');
+			element.classList.remove('bottom-aligned');
+			element.style.top = '';
 		}
 	});
-});
+}
+
+window.addEventListener('scroll', updateSideNavPosition);
+window.addEventListener('resize', updateSideNavPosition);
+document.addEventListener('DOMContentLoaded', updateSideNavPosition);
 
 
 // Chapter Navigation Collapse/Expand Functionality

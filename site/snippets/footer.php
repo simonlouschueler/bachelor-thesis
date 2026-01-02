@@ -1,4 +1,12 @@
   </main>
+  
+  <?php if ($site->credits()->isNotEmpty()): ?>
+  <section class="credits">
+    <div>
+      <?= $site->credits()->kt() ?>
+    </div>
+  </section>
+  <?php endif ?>
 
   <footer>
     <div>
