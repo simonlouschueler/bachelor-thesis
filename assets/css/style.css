@@ -1006,6 +1006,12 @@ ul.bibliography li.highlighted * {
   transition: none;
 }
 
+@media (max-width: 42rem) {
+  .download-pdf-badge {
+    display: none;
+  }
+}
+
 
 /* Navigation */
 
