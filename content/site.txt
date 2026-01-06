@@ -17,6 +17,30 @@ Content: [{"content":{"level":"h1","text":"Foreword"},"id":"1015feb0-1753-4ba9-8
 
 ----
 
+Credits:
+
+*Thanks for the Inspiring Conversations to*
+(link: https://www.esono.com text: Boris Müller target: _blank)
+Chris Nuzum
+(link: https://frankrausch.com text: Frank Rausch target: _blank)
+(link: https://pcalc.com text: James Thomson target: _blank) (Email)
+(link: https://jona.im text: Jona Pomerance target: _blank)
+(link: https://lmnt.me text: Louie Mantia target: _blank) (Email)
+(link: https://marioaguzman.github.io text: Mario Guzman target: _blank)
+(link: https://www.thblt.com text: Thibault Guérin target: _blank)
+
+*Proofread by*
+Chris Nuzum
+(link: https://jona.im text: Jona Pomerance target: _blank)
+(link: https://samirarehmert.com text: Samira Rehmert target: _blank)
+
+*Fonts*
+(link: https://github.com/Instrument/instrument-serif text: Instrument Serif target: _blank) by Rodrigo Fuenzalida & Jordan Egstad
+(link: https://janfromm.de/typefaces/nice text: Nice target: _blank) by Jan Fromm
+(link: https://github.com/adobe-fonts/source-sans text: Source Sans target: _blank) by Paul D. Hunt
+
+----
+
 Badges:
 
 - file://1cq9sefzdr1zkszo
