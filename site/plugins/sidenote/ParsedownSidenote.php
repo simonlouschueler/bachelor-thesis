@@ -1,7 +1,5 @@
 <?php
 
-use Parsedown;
-
 class ParsedownSidenote extends Parsedown
 {
   public function __construct()
