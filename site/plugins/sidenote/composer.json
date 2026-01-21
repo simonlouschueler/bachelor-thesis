@@ -1,7 +1,6 @@
 {
     "name": "simonlou/markdown-sidenote",
     "description": "Sidenotes in Markdown plugin for Kirby CMS",
-    "homepage": "https://github.com/simonlouschueler/kirby-sidenote",
     "type": "kirby-plugin",
     "version": "1.0.0-alpha",
     "require": {
@@ -13,7 +12,6 @@
             "email": "mail@simonlou.com"
         }
     ],
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "simonlou\\better-typo\\": "src/"
