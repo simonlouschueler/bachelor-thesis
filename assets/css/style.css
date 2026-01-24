@@ -463,10 +463,8 @@ article blockquote * {
 /* Citations */
 
 span.citation {
-  background: var(--fill);
   padding-bottom: 0.2rem;
   scroll-margin-top: 40vh;
-  transition: all 0.3s ease-out;
 }
 span.citation * {
   color: var(--text-secondary);
@@ -480,9 +478,17 @@ span.citation * {
 span.citation a {
   padding: 0 0.25rem 0.2rem 0.25rem;
   background-image: none;
+  background: var(--fill);
+  transition: all 0.3s ease-out;
+}
+span.citation a:first-of-type {
+  padding-right: 0.15rem;
+}
+span.citation a:not(:first-of-type) {
+  padding-left: 0.2rem;
 }
 
-span.citation:hover {
+span.citation a:hover {
   background: var(--accent-transparent);
   transition: none;
 }
