@@ -40,10 +40,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
-# Cachebuster plugin
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)\.(\d+)\.(js|css)$ $1.$3 [L]
-
 </IfModule>
 
 # pass the Authorization header to PHP
