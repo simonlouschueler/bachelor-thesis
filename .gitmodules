@@ -10,3 +10,6 @@
 [submodule "site/plugins/retour"]
 	path = site/plugins/retour
 	url = https://github.com/distantnative/retour-for-kirby.git
+[submodule "site/plugins/cachebuster"]
+	path = site/plugins/cachebuster
+	url = https://github.com/schnti/kirby3-cachebuster.git
