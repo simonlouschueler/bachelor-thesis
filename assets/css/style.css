@@ -477,6 +477,7 @@ span.citation * {
 }
 span.citation a {
   padding: 0 0.25rem 0.2rem 0.25rem;
+  box-decoration-break: clone;
   background-image: none;
   background: var(--fill);
   transition: all 0.3s ease-out;
