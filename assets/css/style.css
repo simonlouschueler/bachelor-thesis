@@ -1099,7 +1099,7 @@ footer nav div {
   margin-right: -1rem;
 }
 
-@media (max-width: 32rem) {
+@media (max-width: 36rem) {
   footer > div{
     gap: 2rem;
   }
