@@ -58,6 +58,11 @@ document.addEventListener("DOMContentLoaded", () => {
 				// Remove the reading position ID and hide button
 				readingPosition.removeAttribute('id');
 				hideBackButton();
+
+				// Strip the reading position hash from the URL
+				if (window.location.hash === '#reading-position') {
+					window.history.replaceState(null, '', window.location.pathname + window.location.search);
+				}
 			}
 		}, 100);
 	});
